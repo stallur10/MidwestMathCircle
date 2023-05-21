@@ -1,0 +1,2 @@
+# MidwestMathCircle
+MWMathCircle
