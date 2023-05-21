@@ -1,2 +1,2 @@
 # MidwestMathCircle
-MWMathCircle
+GitHub Repository for the Midwest Math Circle Website.
