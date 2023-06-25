@@ -1,0 +1,27 @@
+.slideDiv {
+    min-height: fit-content;
+    max-height: 35vh;
+    /* min-width: 30%; */
+    overflow: hidden;
+}
+
+img.slide {
+    position: relative;
+    max-height: 100%;
+    min-height: 100%;
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: -0.5%;
+    -webkit-transition: 1s ease-in-out;
+    -moz-transition: 1s ease-in-out;
+    -o-transition: 1s ease-in-out;
+    transition: 1s ease-in-out;
+}
+
+img.up2 {
+    transform: translateY(-200%);
+}
+
+img.up1 {
+    transform: translateY(-100%);
+}
