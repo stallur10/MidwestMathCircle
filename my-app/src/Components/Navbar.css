@@ -50,6 +50,9 @@ header .nav-btn {
     header .nav-btn{
         visibility: visible;
         opacity: 1;
+        position: 'sticky'; 
+        top: 0; 
+        z-index: 9999;
     }
 
     header nav{
@@ -66,20 +69,29 @@ header .nav-btn {
         background-color: var(--mainColor);
         transition: 1s;
         transform: translateY(-100vh);
+        z-index: 9999;
     }
 
     header .responsive_nav{
         transform: none;
+        position: 'sticky'; 
+        top: 0; 
+        z-index: 9999;
     }
 
     nav .nav-close-btn{
         position: absolute;
         top: 2rem;
         right: 2rem;
+        position: 'sticky'; 
+        top: 0; 
+        z-index: 9999;
     }
 
     nav a{
         font-size: 1.5rem;
+        position: 'sticky'; 
+        top: 0; 
+        z-index: 9999;
     }
 }
-

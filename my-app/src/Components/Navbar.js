@@ -17,12 +17,9 @@ function Navbar(){
         <header>
             <h3>MWMC</h3>
             <nav ref={navRef}>
-                <Link to="/about">About Us</Link>
-                <Link to="/home">Home</Link>
-                <Link to="/register">Register</Link>
-                <button className="nav-btn nav-close-btn" onClick={showNavbar}>
-                    <FaTimes/>
-                </button>
+                <Link to="/about" onClick={showNavbar}>About Us</Link>
+                <Link to="/home" onClick={showNavbar}>Home</Link>
+                <Link to="/register" onClick={showNavbar}>Register</Link>
             </nav>
             <button className="nav-btn"  onClick={showNavbar}>
                 <FaBars/>
