@@ -1,5 +1,5 @@
 import React from "react";
-import {FaBars, FaTimes} from "react-icons/fa"
+import {FaBars} from "react-icons/fa"
 import { useRef } from "react";
 import './Navbar.css'
 import { Link } from "react-router-dom";
@@ -19,7 +19,7 @@ function Navbar(){
             <nav ref={navRef}>
                 <Link to="/about" onClick={showNavbar}>About Us</Link>
                 <Link to="/home" onClick={showNavbar}>Home</Link>
-                <Link to="/register" onClick={showNavbar}>Register</Link>
+                <Link to="/ourteam" onClick={showNavbar}>Our Team</Link>
             </nav>
             <button className="nav-btn"  onClick={showNavbar}>
                 <FaBars/>

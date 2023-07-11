@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from 'react'
+import React, {useEffect } from 'react'
 import './RegisterPage.css'; 
 import Aos from 'aos';
 import "aos/dist/aos.css";
@@ -11,6 +11,7 @@ export default function RegisterPage() {
     return (
         <div className='App'>
             <div className='main'>
+                
                 <div className="overlay"></div>
                 <video src="https://www.dropbox.com/s/ej442fe9em0eoq1/mwmc_slideshow.mp4?raw=1" autoPlay loop muted/>
                 <div className="content">

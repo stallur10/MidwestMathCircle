@@ -1,4 +1,4 @@
-import { useEffect, useRef } from 'react';
+import { useEffect} from 'react';
 import './OurTeamPage.css';
 import Aos from 'aos';
 import "aos/dist/aos.css";
@@ -26,52 +26,15 @@ function App() {
       <style>{'body {background-color: #0076FF;}'}</style>
 
       <div className="App-header">
-        <h1>
-        <Typewriter className="typeW" onInit={(typeWriter) =>{typeWriter.typeString("MWMC").start()}}/>
-        </h1>
-
-        <p style={{width: '270px'}}>Midwest Math Circle was originally created by Jesus MAth Math math math</p>
-      </div>
-
-      <div  className="web-devs">
-        <h1 style={{marginTop: '70px', fontSize: 50, fontWeight: 10, color: 'white'}}>The Developers</h1>
-
-          <div className="Shreyas" data-aos="fade-left" data-aos-duration="1900" style={{marginTop: '200px', justifyContent: 'center', flexDirection: 'row', display: 'flex',}}>
-            <div style={{}}>
-                <img  src={Shreyas} width="250" height= "250" alt="pors" style={{position: "absolute", left: `110px`, border: 'solid', borderColor: 'yellow', borderWidth: '5px'}}/>
-              <div style={{}}>
-                <h1>Shreyas Talluri</h1>
-                <p style={{color: 'white'}}>Website Dev and Professional Professional</p>
-                <SocialIcon url='https://www.instagram.com/stallur10/'></SocialIcon>
-                <SocialIcon url='https://github.com/stallur10/My-Projects' style={{marginRight: '5px', marginLeft: '5px'}}></SocialIcon>
-                <SocialIcon url='https://mail.google.com/mail/u/0/?pli=1#inbox?compose=GTvVlcSKkVLjBftbwJZrssdSpgHjnwdXZjCjRzJctmvHSTdVxNTHtsrMnDJBMrLNJhNWWXggKGsfh' ></SocialIcon>
-              </div>
-            </div>
-          </div>
-
-          <div className="Anvith" data-aos="fade-right" data-aos-duration="1900" style={{marginTop: '200px', justifyContent: 'center', flexDirection: 'row', display: 'flex',}}>
-            <div style={{}}>
-                <img  src={Anvith} width="250" height= "250" alt="pors" style={{position: "absolute", left: `1110px`, border: 'solid', borderColor: 'yellow', borderWidth: '5px'}}/>
-              <div style={{}}>
-                <h1>Anvith Kotha</h1>
-                <p style={{color: 'white'}}>Website Dev and Convicted Felon</p>
-                <SocialIcon url='?'></SocialIcon>
-              </div>
-            </div>
-          </div>
-
-          <div className="Rishi" data-aos="fade-left" data-aos-duration="1900" style={{marginTop: '200px', justifyContent: 'center', flexDirection: 'row', display: 'flex',}}>
-            <div style={{}}>
-                <img  src={Rishi} width="250" height= "250" alt="pors" style={{position: "absolute", left: `110px`, border: 'solid', borderColor: 'yellow', borderWidth: '5px'}}/>
-              <div style={{}}>
-                <h1>Rishi Koth</h1>
-                <p style={{color: 'white'}}>Website Dev and Fremder</p>
-                <SocialIcon url='?'></SocialIcon>
-              </div>
-            </div>
-          </div>
-
-
+   
+                <h1 style={{color: 'yellow'}}>
+                  The Midwest Math Circle Team
+                </h1>
+                <p style={{width: '270px', color: 'yellow'}}>
+                  
+                <Typewriter className="typeW" onInit={(typeWriter) =>{typeWriter.typeString(" We were originally created by Jesus MAth Math math math").start()}}/>
+                  
+                  </p>
       </div>
 
       <div className='mentors' data-aos="fade-up" data-aos-duration="1500">
@@ -98,6 +61,52 @@ function App() {
              </div>
       </div>
       
+      <div  className="web-devs">
+
+        <h1 style={{marginTop: '70px', fontSize: 50, fontWeight: 10, color: 'white'}}>
+            <Typewriter className="typeW" onInit={(typeWriter) =>{typeWriter.typeString("The Website Developers").start()}}/>
+        </h1>
+
+        <div className='web-devs-people'>
+
+          <div className="Anvith" data-aos="fade-left" data-aos-duration="1900" style={{justifyContent: 'center', flexDirection: 'row', display: 'flex'}}>
+            <div style={{}}>
+                <img  src={Anvith} width="100%" height= "65%" alt="pors" style={{ border: 'solid', borderColor: 'yellow', borderWidth: '5px', borderRadius: "50px"}}/>
+              <div style={{}}>
+                <h1>Anvith Kotha</h1>
+                <p style={{color: 'white'}}>Rising Senior at Conant Highschool</p>
+                <SocialIcon url='?'></SocialIcon>
+              </div>
+            </div>
+          </div>
+
+          <div className="Shreyas" data-aos="fade-up" data-aos-duration="1900" style={{ justifyContent: 'center', flexDirection: 'row', display: 'flex',marginRight: '12%',marginLeft: '12%'}}>
+            <div style={{}}>
+                <img  src={Shreyas} width="100%" height= "65%" alt="pors" style={{ border: 'solid', borderColor: 'yellow', borderWidth: '5px', borderRadius: "50px"}}/>
+              <div style={{}}>
+                <h1>Shreyas Talluri</h1>
+                <p style={{color: 'white'}}>Rising Senior at Conant Highschool</p>
+                <SocialIcon url='https://www.instagram.com/stallur10/'></SocialIcon>
+                <SocialIcon url='https://github.com/stallur10/My-Projects' style={{marginRight: '5px', marginLeft: '5px'}}></SocialIcon>
+                <SocialIcon url='https://mail.google.com/mail/u/0/?pli=1#inbox?compose=GTvVlcSKkVLjBftbwJZrssdSpgHjnwdXZjCjRzJctmvHSTdVxNTHtsrMnDJBMrLNJhNWWXggKGsfh' ></SocialIcon>
+              </div>
+            </div>
+          </div>
+
+
+          <div className="Rishi" data-aos="fade-right" data-aos-duration="1900" style={{justifyContent: 'center', flexDirection: 'row', display: 'flex'}}>
+            <div style={{}}>
+                <img  src={Rishi} width="100%" height= "65%" alt="pors" style={{ border: 'solid', borderColor: 'yellow', borderWidth: '5px', borderRadius: "50px"}}/>
+              <div style={{}}>
+                <h1>Rishi Koth</h1>
+                <p style={{color: 'white'}}>Rising Senior at Fremd Highschool</p>
+                <SocialIcon url='?'></SocialIcon>
+              </div>
+            </div>
+          </div>
+          </div>
+
+      </div>
     </div>
   );
 }
