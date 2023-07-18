@@ -20,6 +20,7 @@
     font-family: 'Abel', sans-serif;
     padding-left: 2%;
     padding-right: 2%;
+    color: #fcba03;
 }
 
 .intro {
@@ -45,8 +46,63 @@
     justify-content: center;
     text-align: center;
     padding: 20px;
+    flex-basis: 1800px;
+    flex-grow: 0;
 }
 
 .reverse {
     flex-direction: row-reverse;
+}
+
+.registerBtn {
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 50px;
+    background-color: #0076FF;
+    color: #fcba03;
+    border-color: #fcba03;
+}
+
+.mySlide {
+    height: 100%;
+}
+
+.gold {
+    color: #fcba03;
+}
+
+.contact {
+    max-width: 95%;
+    margin-left: 2.5%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+Replace slider.css with
+.slideDiv {
+    min-height: 45vh;
+    max-height: 35vh;
+    overflow: hidden;
+}
+
+img.slide {
+    position: relative;
+    max-height: 100%;
+    min-height: 100%;
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: -0.5%;
+    -webkit-transition: 1s ease-in-out;
+    -moz-transition: 1s ease-in-out;
+    -o-transition: 1s ease-in-out;
+    transition: 1s ease-in-out;
+}
+
+img.up2 {
+    transform: translateY(-200%);
+}
+
+img.up1 {
+    transform: translateY(-100%);
 }
