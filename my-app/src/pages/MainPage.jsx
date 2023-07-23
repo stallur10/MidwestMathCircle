@@ -11,6 +11,12 @@ function MainPage() {
         <h1 className='header'>We Are Midwest Math Circle</h1>
         <button className='registerBtn'>{"Register Now"}</button>
 
+        <div className='contact'>
+          <Unicons.UilFacebook size="60" color="#fcba03"/>
+          <Unicons.UilLinkedin size="60" color="#fcba03" />
+          <Unicons.UilFastMail size="60" color="#fcba03" />
+        </div>
+
       </div>
       
       <Slider className="mySlide"/>
@@ -28,12 +34,6 @@ function MainPage() {
 
       <img src={require("../Images/download.jpeg")} alt='hi' className="aboutImg"/>
 
-    </div>
-
-    <div className='contact'>
-      <Unicons.UilFacebook size="90" color="#4287f5" />
-      <Unicons.UilLinkedin size="90" color="#4287f5" />
-      <Unicons.UilFastMail size="90" color="#4287f5" />
     </div>
     
     </>

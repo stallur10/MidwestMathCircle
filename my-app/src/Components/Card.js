@@ -1,6 +1,6 @@
 import React from "react";
 import './Card.css'
-function Card({title, imageURL,body,left,top}){
+function Card({title, imageURL,body}){
     return(
         <div style={{}} className="card-container">
 

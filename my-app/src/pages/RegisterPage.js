@@ -9,14 +9,14 @@ export default function RegisterPage() {
     }, []);
 
     return (
+        <>
         <div className='App'>
             <div className='main'>
-                
                 <div className="overlay"></div>
                 <video src="https://www.dropbox.com/s/ej442fe9em0eoq1/mwmc_slideshow.mp4?raw=1" autoPlay loop muted/>
                 <div className="content">
-                    <h1 id="title">Register for MWMC</h1>
-                    <button id='signUp'>Sign Up</button>
+                    <h1 id="title">Midwest Math Circle</h1>
+                    <button id='signUp' onClick={() => window.open('https://forms.gle/UufwRLrYu1Z4kNXs5', '_blank')}>Sign Up</button>
                 </div>
             </div>
             <div id="aboutClasses">
@@ -40,7 +40,7 @@ export default function RegisterPage() {
                     </div>
                 </div>
             </div>
-            <div id="nextsession">
+            <div id="nextsession" className='nextSessions'>
                 <h2 id="nextTitle" data-aos='fade-up' data-aos-duration='1600'>Next Sessions</h2>
                 <center><table id='sessionTable' data-aos='flip-down' data-aos-duration='1600'>
                     <tr>
@@ -70,5 +70,6 @@ export default function RegisterPage() {
                 </table></center>
             </div>
         </div>
+        </>
     )
 }
