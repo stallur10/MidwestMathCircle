@@ -5,6 +5,7 @@ import "aos/dist/aos.css";
 import Card from '../Components/Card';
 import Typewriter from 'typewriter-effect';
 import { SocialIcon } from 'react-social-icons';
+import rishi_headshot from "../Images/rishi_headshot.jpg";
 
 //npm instals: AOS, typewriter-effect, react-social-icons
 
@@ -16,7 +17,7 @@ function App() {
 
     var Anvith=null
     var Shreyas=null
-    var Rishi=null
+    var Rishi= rishi_headshot
     return (
     <div className="App">
       <body> </body>
@@ -102,8 +103,8 @@ function App() {
 
         <div className='web-devs-people'>
 
-          <div className="Anvith" data-aos="fade-left" data-aos-duration="1900" style={{justifyContent: 'center', flexDirection: 'column', display: 'flex'}}>
-                <img  src={Anvith} width="100%" height= "65%" alt="pors" style={{ border: 'solid', borderColor: 'yellow', borderWidth: '5px', borderRadius: "50px"}}/>
+          <div className="devs_box Anvith" data-aos="fade-left" data-aos-duration="1900" style={{justifyContent: 'center', flexDirection: 'column', display: 'flex'}}>
+                <img class='dev_imgs' src={Anvith} width="100%" height= "65%" alt="pors" style={{ border: 'solid', borderColor: 'yellow', borderWidth: '5px', borderRadius: "50px"}}/>
               <div style={{}}>
                 <h1>Anvith Kotha</h1>
                 <p style={{color: 'white'}}>Rising Senior at Conant Highschool</p>
@@ -111,8 +112,8 @@ function App() {
               </div>
           </div>
 
-          <div className="Shreyas" data-aos="fade-up" data-aos-duration="1900" style={{ justifyContent: 'center', flexDirection: 'column', display: 'flex',marginRight: '12%',marginLeft: '12%'}}>
-                <img  src={Shreyas} width="100%" height= "65%" alt="pors" style={{ border: 'solid', borderColor: 'yellow', borderWidth: '5px', borderRadius: "50px"}}/>
+          <div className="devs_box Shreyas" data-aos="fade-up" data-aos-duration="1900" style={{ justifyContent: 'center', flexDirection: 'column', display: 'flex',marginRight: '12%',marginLeft: '12%'}}>
+                <img class='dev_imgs' src={Shreyas} width="100%" height= "65%" alt="pors" style={{ border: 'solid', borderColor: 'yellow', borderWidth: '5px', borderRadius: "50px"}}/>
               <div style={{}}>
                 <h1>Shreyas Talluri</h1>
                 <p style={{color: 'white'}}>Rising Senior at Conant Highschool</p>
@@ -123,15 +124,15 @@ function App() {
           </div>
 
 
-          <div className="Rishi" data-aos="fade-right" data-aos-duration="1900" style={{justifyContent: 'center', flexDirection: 'column', display: 'flex'}}>
-                <img  src={Rishi} width="100%" height= "65%" alt="pors" style={{ border: 'solid', borderColor: 'yellow', borderWidth: '5px', borderRadius: "50px"}}/>
+          <div className="devs_box Rishi" data-aos="fade-right" data-aos-duration="1900" style={{justifyContent: 'center', flexDirection: 'column', display: 'flex'}}>
+                <img class='dev_imgs' src={Rishi} alt="pors" style={{ border: 'solid', borderColor: 'yellow', borderWidth: '5px', borderRadius: "50px", objectFit: 'contain'}}/>
               <div style={{}}>
                 <h1>Rishi Koth</h1>
                 <p style={{color: 'white'}}>Rising Senior at Fremd Highschool</p>
                 <SocialIcon url='?'></SocialIcon>
               </div>
           </div>
-          </div>
+        </div>
 
       </div>
     </div>

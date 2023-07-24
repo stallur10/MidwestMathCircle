@@ -6,7 +6,6 @@
 
 .web-devs {
   background-color: #0076FF;
-  height: 600px;
 }
 
 .overlay {
@@ -32,10 +31,20 @@
 
 .web-devs-people{
   display: flex;
-  flex-direction: row;
+  flex-flow: row wrap;
   justify-content: center;
   margin-top: 100px;
-  height: 60%;
+}
+
+.devs_box{
+  height: 100%;
+  margin-bottom: 110px;
+}
+
+.dev_imgs{
+  aspect-ratio: 1/1;
+  width: calc(225px + 0.6vw);
+  object-fit: contain;
 }
 
 .App-header {
@@ -134,7 +143,6 @@ padding: 20px;
 
   .web-devs {
     background-color: #0076FF;
-    height: 1000px;
   }
 
 }
