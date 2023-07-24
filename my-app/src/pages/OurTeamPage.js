@@ -6,6 +6,7 @@ import Card from '../Components/Card';
 import Typewriter from 'typewriter-effect';
 import { SocialIcon } from 'react-social-icons';
 import rishi_headshot from "../Images/rishi_headshot.jpg";
+import linkedin from '../Images/linkedin.png'
 
 //npm instals: AOS, typewriter-effect, react-social-icons
 
@@ -43,8 +44,8 @@ function App() {
       <div className='mentors-container'>
         <div className='mentor-cards1'>
                 <Card 
-                  title='Mentor'
-                  imageURL= 'null'
+                  title='Rishi Kanchi'
+                  imageURL= {Rishi}
                   body=''
                   />
 
@@ -88,7 +89,7 @@ function App() {
                 <Card 
                   title='MWMC'
                   imageURL= 'null'
-                  body='LOGO'
+                  body=''
                   />   
          </div>
 
@@ -127,9 +128,9 @@ function App() {
           <div className="devs_box Rishi" data-aos="fade-right" data-aos-duration="1900" style={{justifyContent: 'center', flexDirection: 'column', display: 'flex'}}>
                 <img class='dev_imgs' src={Rishi} alt="pors" style={{ border: 'solid', borderColor: 'yellow', borderWidth: '5px', borderRadius: "50px", objectFit: 'contain'}}/>
               <div style={{}}>
-                <h1>Rishi Koth</h1>
-                <p style={{color: 'white'}}>Rising Senior at Fremd Highschool</p>
-                <SocialIcon url='?'></SocialIcon>
+                <h1>Rishi Kanchi</h1>
+                <p style={{color: 'white', marginBottom: '5px'}}>Rising Junior at Fremd High School</p>
+                <SocialIcon url='https://www.linkedin.com/in/rishi-kanchi-57b509281/' target="_blank" bgColor="yellow"></SocialIcon>
               </div>
           </div>
         </div>

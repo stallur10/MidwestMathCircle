@@ -1,6 +1,7 @@
 import MainPage from './pages/MainPage';
 import OurTeamPage from './pages/OurTeamPage';
 import Navbar from './Components/Navbar';
+import Footer from './Components/Footer';
 import RegisterPage from './pages/RegisterPage';
 import {Routes, Route } from 'react-router-dom';
 
@@ -8,7 +9,7 @@ import {Routes, Route } from 'react-router-dom';
 function App() {
   return (
     <div>
-        <Navbar/>
+      <Navbar/>
       <div>
           <Routes>
             <Route index element={<RegisterPage />} />
@@ -17,6 +18,7 @@ function App() {
             <Route path="/ourteam" element={<OurTeamPage />} />
           </Routes>
       </div>
+      <Footer />
     </div>
   );
 }

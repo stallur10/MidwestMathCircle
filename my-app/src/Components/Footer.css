@@ -1,0 +1,42 @@
+
+#footerBox {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 30px;
+}
+
+#footerP1 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+    width: 33.33333%;
+}
+
+#logo {
+    padding-right: 20px;
+}
+
+#mwmcBigFooter {
+    font-size: 18px;
+    text-align: left;
+}
+
+#socials {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    width: 33.33333%;
+}
+
+.socialLogo {
+    margin: 10px 30px;
+}
+
+#copyright {
+    width: 33.33333%;
+    text-align: right;
+}
