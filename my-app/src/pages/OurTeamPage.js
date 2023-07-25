@@ -7,6 +7,7 @@ import Typewriter from 'typewriter-effect';
 import { SocialIcon } from 'react-social-icons';
 import rishi_headshot from "../Images/rishi_headshot.jpg";
 import linkedin from '../Images/linkedin.png'
+import logo from '../Images/logo.png'
 
 //npm instals: AOS, typewriter-effect, react-social-icons
 
@@ -16,8 +17,8 @@ function App() {
         Aos.init({});
     }, []);
 
-    var Anvith=null
-    var Shreyas=null
+    var Anvith=logo
+    var Shreyas=logo
     var Rishi= rishi_headshot
     return (
     <div className="App">
@@ -51,18 +52,18 @@ function App() {
 
                 <Card 
                   title='Mentor'
-                  imageURL= 'null'
+                  imageURL= {logo}
                   body=''
                   />
                 <Card 
                   title='Mentor'
-                  imageURL= 'null'
+                  imageURL= {logo}
                   body=''
                   />   
 
                 <Card 
                   title='Mentor'
-                  imageURL= 'null'
+                  imageURL= {logo}
                   body=''
                   /> 
         </div>
@@ -70,25 +71,25 @@ function App() {
         <div className='mentor-cards2'>
                 <Card 
                   title='Mentor'
-                  imageURL= 'null'
+                  imageURL= {logo}
                   body=''
                   />
 
                 <Card 
                   title='Mentor'
-                  imageURL= 'null'
+                  imageURL= {logo}
                   body=''
                   />
 
                 <Card 
                   title='Mentor'
-                  imageURL= 'null'
+                  imageURL= {logo}
                   body=''
                   />  
 
                 <Card 
                   title='MWMC'
-                  imageURL= 'null'
+                  imageURL= {logo}
                   body=''
                   />   
          </div>

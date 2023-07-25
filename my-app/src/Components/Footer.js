@@ -12,7 +12,7 @@ function Footer() {
     <footer style={{ backgroundColor: '#29335C', textAlign: 'center', color: 'white' }}>
         <div id='footerBox'>
             <div id="footerP1">
-                <div ><img id='logo' src={logo} height='70px' alt="logo"/></div>
+                <div ><img id='logo' src={logo} height='50px' alt="logo"/></div>
                 <div id='mwmcBigFooter'>Midwest Math Circle</div>
             </div>
 
@@ -35,7 +35,7 @@ function Footer() {
             </div>
 
             <div id='copyright'>
-                Est. 2017 © 2023 Midwest Math Circle Illinois Registered Nonprofit
+                Est. 2017 © 2023 Midwest Math Circle
             </div>
         </div>
 

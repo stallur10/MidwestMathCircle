@@ -24,6 +24,17 @@ header{
     color: var(--textColor);
 }
 
+#logo {
+    display: flex;
+    flex-flow: row wrap;
+    text-align: left;
+    align-items: center;
+}
+
+#mwmc {
+    padding-left: 15px;
+}
+
 nav a{
     margin: 0 2rem;
     color: var(--textColor);

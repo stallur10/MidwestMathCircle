@@ -3,6 +3,7 @@ import {FaBars} from "react-icons/fa"
 import { useRef } from "react";
 import './Navbar.css'
 import { Link } from "react-router-dom";
+import logo from '../Images/logo.png'
 
 
 function Navbar(){
@@ -15,7 +16,11 @@ function Navbar(){
 
     return(
         <header>
-            <h3>MWMC</h3>
+            <div id = 'logo'>
+                <img src={logo} height='50px' alt="logo"/>
+                <h3 id='mwmc'>MWMC</h3>
+            </div>
+
             <nav ref={navRef}>
                 <Link to="/about" onClick={showNavbar}>About Us</Link>
                 <Link to="/home" onClick={showNavbar}>Home</Link>

@@ -16,26 +16,29 @@ export default function RegisterPage() {
                 <video src="https://www.dropbox.com/s/ej442fe9em0eoq1/mwmc_slideshow.mp4?raw=1" autoPlay loop muted/>
                 <div className="content">
                     <h1 id="title">Midwest Math Circle</h1>
-                    <button id='signUp' onClick={() => window.open('https://forms.gle/UufwRLrYu1Z4kNXs5', '_blank')}>Sign Up</button>
+                    <button id='signUp' onClick={() => window.open('https://forms.gle/uRPGkWxfKSAEi3Dr7', '_blank')}>Sign Up</button>
+                    <a href="#nextTitle">Session Dates ↓</a>
                 </div>
             </div>
             <div id="aboutClasses">
                 <h2 id="aboutClassesTitle" data-aos="flip-up" data-aos-duration='1100'>About Our Classes</h2>
                 <div id="classBox">
                     <div className='box' id="box1" data-aos='fade-right' data-aos-duration='2200'>
-                        <h3 className='classNames'>Young Kids</h3>
-                        <div className='classDesc'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+                        <h3 className='classNames'>Algebra I</h3>
+                        <div className='classDesc'>
+                            In Algebra 1, students delve into the world of variables, equations, and functions. They gain valuable skills in graphing linear functions, solving quadratic equations, and working with exponents and polynomials. This foundational course sets the stage for more advanced math studies, empowering students to tackle real-world problem-solving with confidence.
+                        </div>
                     </div>
                     <div className='box' id='box2' data-aos='fade-up' data-aos-duration='2200'>
-                    <h3 className='classNames'>Middle Kids</h3>
+                    <h3 className='classNames'>Geometry</h3>
                         <div className='classDesc'>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            Welcome to Geometry! In this class, students explore the fascinating realm of shapes, angles, and spatial relationships. They'll learn to identify and classify various polygons, triangles, and quadrilaterals while discovering the principles of congruence and similarity. Through interactive activities, they'll explore the properties of circles, calculate areas and volumes, and dive into transformations like reflections, rotations, and translations.
                         </div>
                     </div>
                     <div className='box' id='box3' data-aos='fade-left' data-aos-duration='2200'>
-                    <h3 className='classNames'>Old Kids</h3>
+                    <h3 className='classNames'>Counting & Probability</h3>
                         <div className='classDesc'>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            In Counting & Probability, students embark on an exciting journey of mathematical possibilities. They'll master the art of counting techniques, permutations, and combinations to solve problems involving arrangements and selections. Probability concepts will be explored, helping students understand the likelihood of events and outcomes in various scenarios.
                         </div>
                     </div>
                 </div>
@@ -50,20 +53,50 @@ export default function RegisterPage() {
                         <th>Location</th>
                     </tr>
                     <tr>
-                        <td>Summer Session</td>
-                        <td>Sundays</td>
+                        <td>First Session!</td>
+                        <td>August 6</td>
                         <td>2:30 - 4:30</td>
                         <td>Schaumburg Library</td>
                     </tr>
                     <tr>
-                        <td>Winter Session</td>
-                        <td>Saturdays</td>
-                        <td>3:30 - 5:30</td>
+                        <td>Session 2</td>
+                        <td>August 13</td>
+                        <td>2:30 - 4:30</td>
                         <td>Palatine Library</td>
                     </tr>
                     <tr>
-                        <td>Spring Session</td>
-                        <td>Sundays</td>
+                        <td>Session 3</td>
+                        <td>August 20</td>
+                        <td>2:30 - 4:30</td>
+                        <td>Schaumburg Library</td>
+                    </tr>
+                    <tr>
+                        <td>Session 4</td>
+                        <td>August 27</td>
+                        <td>2:30 - 4:30</td>
+                        <td>Palatine Library</td>
+                    </tr>
+                    <tr>
+                        <td>Session 5</td>
+                        <td>September 4</td>
+                        <td>2:30 - 4:30</td>
+                        <td>Schaumburg Library</td>
+                    </tr>
+                    <tr>
+                        <td>Session 6</td>
+                        <td>September 11</td>
+                        <td>2:30 - 4:30</td>
+                        <td>Palatine Library</td>
+                    </tr>
+                    <tr>
+                        <td>Session 7</td>
+                        <td>September 18</td>
+                        <td>2:30 - 4:30</td>
+                        <td>Schaumburg Library</td>
+                    </tr>
+                    <tr>
+                        <td>Session 8</td>
+                        <td>September 25</td>
                         <td>2:30 - 4:30</td>
                         <td>Palatine Library</td>
                     </tr>
