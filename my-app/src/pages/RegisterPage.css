@@ -1,5 +1,4 @@
-/*blue 0076ff
-yellow ffff00*/
+
 
 .App {
     text-align: center;
@@ -87,7 +86,106 @@ body {
     border-radius: 15px;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
 
+.bigDiv {
+    display: flex;
+    align-self: center;
+    overflow: hidden;
+    perspective: 1px;
+    border-width: 0px;
+    border-color: #fcba03;
+    border-style: solid;
+    background-color: #FEFEFF;
+}
+
+
+.header {
+    font-size: 50px;
+    font-family: 'Abel', sans-serif;
+    padding-left: 2%;
+    padding-right: 2%;
+    color: #000;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #D6EFFF;
+    flex-shrink: 0.15;
+    padding: 20px;
+    width: 50%;
+}
+
+.aboutImg {
+    object-fit: cover;
+    min-width: 0%;
+    flex-shrink: 2;
+    flex-basis: 3000px;
+    border-radius: 40%;
+    border-width: 50px;
+    margin-left: 2%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.aboutTextDiv {
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    flex-basis: 1800px;
+    flex-grow: 0;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.reverse {
+    flex-direction: row-reverse;
+}
+
+.registerBtn {
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 50px;
+    background-color: #0076FF;
+    color: #fcba03;
+    border-color: #fcba03;
+}
+
+.mySlide {
+    height: 100%;
+}
+
+.gold {
+    color: #000;
+}
+
+.contact {
+    max-width: 95%;
+    margin-top: 6%;
+    margin-left: 2.5%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.boxesDiv {
+    background: linear-gradient(to bottom, #FEFEFF 50%, #D6EFFF);
+}
+
+.miniBoxesDiv {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
 /* //ec255a red
 //faedf0 white */
 

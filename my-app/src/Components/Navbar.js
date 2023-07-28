@@ -22,6 +22,7 @@ function Navbar(){
             </div>
 
             <nav ref={navRef}>
+                {/* <Link to="/about" onClick={showNavbar}>About Us</Link> */}
                 <Link to="/home" onClick={showNavbar}>Home</Link>
                 <Link to="/ourteam" onClick={showNavbar}>Our Team</Link>
             </nav>

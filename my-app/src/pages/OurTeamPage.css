@@ -1,11 +1,16 @@
+#FEFEFF
+#D6EFFF
+
+
 .App {
   text-align: center;
   overflow-y: hidden;
 
 }
 
+
 .web-devs {
-  background-color: #0076FF;
+  background-color: #FEFEFF;
 }
 
 .overlay {
@@ -19,7 +24,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: yellow;
+  color: #FEFEFF;
   opacity: 0;
 
   animation: fadeInAnimation ease-in 1s;
@@ -48,7 +53,7 @@
 }
 
 .App-header {
-  background-color: #29335c7b;
+  background-color: #29335C;
   height: 540px;
   flex-direction: column;
   justify-content: center;
@@ -69,13 +74,13 @@ body {
 }
 
 .mentors {
-  background-color: yellow;
+  background-color: #FEFEFF;
   height: 900px;
   margin-top: 10%;
 }
 
 .mentor-cards1 {
-  background-color: yellow;
+  background-color: #FEFEFF;
   justify-content: center;
   display: flex;
   flex-direction: row;
@@ -83,7 +88,7 @@ body {
 
 }
 .mentor-cards2 {
-  background-color: yellow;
+  background-color: #FEFEFF;
   justify-content: center;
   display: flex;
   flex-direction: row;
@@ -93,7 +98,7 @@ body {
 padding: 20px;
 }
 .mentors-container{
-  background-color: yellow;
+  background-color: #FEFEFF;
   flex-direction: column;
   justify-content: center;
   display: flex;
@@ -101,12 +106,12 @@ padding: 20px;
 
 @media (max-width: 768px) {
   .mentors {
-    background-color: yellow;
+    background-color: #FEFEFF;
     height: 1200px;
     margin-top: 10%;
   }
   .mentors-container{
-    background-color: yellow;
+    background-color: #FEFEFF;
     flex-direction: column;
     justify-content: center;
     display: flex;
@@ -115,7 +120,7 @@ padding: 20px;
 
   }
   .mentor-cards1 {
-    background-color: yellow;
+    background-color: #FEFEFF;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -124,7 +129,7 @@ padding: 20px;
 
   }
   .mentor-cards2 {
-    background-color: yellow;
+    background-color: #FEFEFF;
     display: flex;
     justify-content: flex-start;
     flex-direction: row;
@@ -142,7 +147,7 @@ padding: 20px;
   }
 
   .web-devs {
-    background-color: #0076FF;
+    background-color: #FEFEFF;
   }
 
 }

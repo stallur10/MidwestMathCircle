@@ -2,8 +2,8 @@
     width: 20rem;
     height: 30%;
     overflow: hidden;
-    color: white;
-    background-color: #0076FF;
+    color: #29335C;
+    background-color: #D6EFFF;
     border: solid;
     border-radius: 20px;
     margin-left: 1%;
@@ -17,7 +17,7 @@
     margin-top: 10px;
     border-radius: 200px;
     border: solid;
-    border-color: #0076FF;
+    border-color: #D6EFFF;
 }
 
 .image-container {
@@ -36,8 +36,8 @@
     width: 20rem;
     height: 25rem;
     overflow: hidden;
-    color: white;
-    background-color: #0076FF;
+    color: #29335C;
+    background-color: #D6EFFF;
     border: solid;
     border-radius: 20px;
     margin-left: 10px;

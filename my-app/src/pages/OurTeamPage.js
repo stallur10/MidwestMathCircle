@@ -6,7 +6,6 @@ import Card from '../Components/Card';
 import Typewriter from 'typewriter-effect';
 import { SocialIcon } from 'react-social-icons';
 import rishi_headshot from "../Images/rishi_headshot.jpg";
-import linkedin from '../Images/linkedin.png'
 import logo from '../Images/logo.png'
 
 //npm instals: AOS, typewriter-effect, react-social-icons
@@ -23,14 +22,14 @@ function App() {
     return (
     <div className="App">
       <body> </body>
-      <style>{'body {background-color: #0076FF;}'}</style>
+      <style>{'body {background-color: #FEFEFF;}'}</style>
 
       <div className="App-header">
    
-                <h1 style={{color: 'yellow'}}>
+                <h1 style={{color: 'white'}}>
                   The Midwest Math Circle Team
                 </h1>
-                <p style={{width: '270px', color: 'yellow'}}>
+                <p style={{width: '270px', color: 'white'}}>
                   
                 <Typewriter className="typeW" onInit={(typeWriter) =>{typeWriter.typeString("THINK. SOLVE. ENJOY.").start()}}/>
                   
@@ -99,39 +98,39 @@ function App() {
       
       <div  className="web-devs">
 
-        <h1 style={{marginTop: '70px', fontSize: 50, fontWeight: 10, color: 'white'}}>
+        <h1 style={{marginTop: '70px', fontSize: 50, fontWeight: 10, color: '#000'}}>
             <Typewriter className="typeW" onInit={(typeWriter) =>{typeWriter.typeString("The Website Developers").start()}}/>
         </h1>
 
         <div className='web-devs-people'>
 
           <div className="devs_box Anvith" data-aos="fade-left" data-aos-duration="1900" style={{justifyContent: 'center', flexDirection: 'column', display: 'flex'}}>
-                <img class='dev_imgs' src={Anvith} width="100%" height= "65%" alt="pors" style={{ border: 'solid', borderColor: 'yellow', borderWidth: '5px', borderRadius: "50px"}}/>
+                <img class='dev_imgs' src={Anvith} width="100%" height= "65%" alt="pors" style={{ border: 'solid', borderColor: '#29335C', borderWidth: '5px', borderRadius: "50px"}}/>
               <div style={{}}>
                 <h1>Anvith Kotha</h1>
                 <p style={{color: 'white'}}>Rising Senior at Conant Highschool</p>
-                <SocialIcon url='?'></SocialIcon>
+                <SocialIcon url='?' bgColor="#000"></SocialIcon>
               </div>
           </div>
 
           <div className="devs_box Shreyas" data-aos="fade-up" data-aos-duration="1900" style={{ justifyContent: 'center', flexDirection: 'column', display: 'flex',marginRight: '12%',marginLeft: '12%'}}>
-                <img class='dev_imgs' src={Shreyas} width="100%" height= "65%" alt="pors" style={{ border: 'solid', borderColor: 'yellow', borderWidth: '5px', borderRadius: "50px"}}/>
+                <img class='dev_imgs' src={Shreyas} width="100%" height= "65%" alt="pors" style={{ border: 'solid', borderColor: '#29335C', borderWidth: '5px', borderRadius: "50px"}}/>
               <div style={{}}>
                 <h1>Shreyas Talluri</h1>
                 <p style={{color: 'white'}}>Rising Senior at Conant Highschool</p>
-                <SocialIcon url='https://www.instagram.com/stallur10/'></SocialIcon>
+                <SocialIcon url='https://www.instagram.com/stallur10/' bgColor="#000"></SocialIcon>
                 {/* <SocialIcon url='https://github.com/stallur10/My-Projects' style={{marginRight: '5px', marginLeft: '5px'}}></SocialIcon> */}
-                <SocialIcon url='https://mail.google.com/mail/u/0/?pli=1#inbox?compose=GTvVlcSKkVLjBftbwJZrssdSpgHjnwdXZjCjRzJctmvHSTdVxNTHtsrMnDJBMrLNJhNWWXggKGsfh' ></SocialIcon>
+                <SocialIcon url='https://mail.google.com/mail/u/0/?pli=1#inbox?compose=GTvVlcSKkVLjBftbwJZrssdSpgHjnwdXZjCjRzJctmvHSTdVxNTHtsrMnDJBMrLNJhNWWXggKGsfh' bgColor="#000" ></SocialIcon>
               </div>
           </div>
 
 
           <div className="devs_box Rishi" data-aos="fade-right" data-aos-duration="1900" style={{justifyContent: 'center', flexDirection: 'column', display: 'flex'}}>
-                <img class='dev_imgs' src={Rishi} alt="pors" style={{ border: 'solid', borderColor: 'yellow', borderWidth: '5px', borderRadius: "50px", objectFit: 'contain'}}/>
+                <img class='dev_imgs' src={Rishi} alt="pors" style={{ border: 'solid', borderColor: '#29335C', borderWidth: '5px', borderRadius: "50px", objectFit: 'contain'}}/>
               <div style={{}}>
                 <h1>Rishi Kanchi</h1>
                 <p style={{color: 'white', marginBottom: '5px'}}>Rising Junior at Fremd High School</p>
-                <SocialIcon url='https://www.linkedin.com/in/rishi-kanchi-57b509281/' target="_blank" bgColor="yellow"></SocialIcon>
+                <SocialIcon url='https://www.linkedin.com/in/rishi-kanchi-57b509281/' target="_blank" bgColor="29335C"></SocialIcon>
               </div>
           </div>
         </div>
