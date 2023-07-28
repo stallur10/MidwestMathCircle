@@ -2,6 +2,7 @@ import React, {useEffect } from 'react'
 import './RegisterPage.css'; 
 import Aos from 'aos';
 import "aos/dist/aos.css";
+import InfoBox from '../Components/InfoBox';
 
 export default function RegisterPage() {
     useEffect(() => {
@@ -20,6 +21,29 @@ export default function RegisterPage() {
                     <a href="#nextTitle">Session Dates ↓</a>
                 </div>
             </div>
+
+            <div className='boxesDiv'>
+            <div className='miniBoxesDiv'>
+                <InfoBox mainText={"40+"} littleText={"Students Taught"}/>
+                <InfoBox mainText={"3"} littleText={"Classes Offered"}/>
+                <InfoBox mainText={"4:1"} littleText={"Student-Mentor Ratio"}/>
+            </div>
+            </div>
+   
+            <div className='bigDiv reverse'>
+
+<div className='aboutTextDiv'>
+  <h1 className='gold'>About Us</h1>
+  <h3 className='gold'>As Albert Einstein once said, "Education is not the learning of facts but the training of minds to think". At MWMC, we embody this philosophy. 
+  We grew frustrated with the approach schools take to math, teaching a variety of concepts,
+  but only enough to solve a few cookie cutter problems. We take the opposite approach, teaching our students so
+  that they can look at a problem they'd never seen before, and break it down to solve it. </h3>
+</div>
+
+<img src={require("../Images/download.jpeg")} alt='hi' className="aboutImg"/>
+
+</div>
+
             <div id="aboutClasses">
                 <h2 id="aboutClassesTitle" data-aos="flip-up" data-aos-duration='1100'>About Our Classes</h2>
                 <div id="classBox">
@@ -43,6 +67,9 @@ export default function RegisterPage() {
                     </div>
                 </div>
             </div>
+
+
+
             <div id="nextsession" className='nextSessions'>
                 <h2 id="nextTitle" data-aos='fade-up' data-aos-duration='1600'>Next Sessions</h2>
                 <center><table id='sessionTable' data-aos='flip-down' data-aos-duration='1600'>
