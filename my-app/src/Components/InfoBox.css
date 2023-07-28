@@ -1,0 +1,25 @@
+.container {
+    text-align: center;
+    width: 300px;
+    border-width: 1px;
+    border-radius: 8%;
+    border-color: black;
+    border-style: solid;
+    align-self: center;
+    background-color: #4287f5;
+    border-color: #fcba03;
+}
+
+.big {
+    font-size: 80px;
+    margin-top: 15px;
+    color: #fcba03;
+    opacity: 1;
+}
+
+.small {
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #fcba03;
+}

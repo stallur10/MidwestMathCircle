@@ -5,10 +5,10 @@
     align-self: center;
     overflow: hidden;
     perspective: 1px;
-    border-width: 1px;
+    border-width: .5px;
     border-color: #fcba03;
     border-style: solid;
-    background-color: #242424;
+    background-color: #4287f5;
 }
 
 .header {
@@ -30,7 +30,6 @@
     flex-shrink: 0.15;
     padding: 20px;
     width: 50%;
-    height: 500px;
 }
 
 .aboutImg {
@@ -77,4 +76,17 @@
     justify-content: center;
     align-content: center;
     align-items: center;
+}
+
+.boxesDiv {
+    background: linear-gradient(to bottom, #4287f5 50%, #fdd885);
+}
+
+.miniBoxesDiv {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }

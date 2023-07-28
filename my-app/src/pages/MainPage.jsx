@@ -1,5 +1,6 @@
 import Slider from '../Components/Slider';
 import './MainPage.css'
+import InfoBox from '../Components/InfoBox';
 import * as Unicons from '@iconscout/react-unicons';
 
 function MainPage() {
@@ -21,7 +22,15 @@ function MainPage() {
       
       <Slider className="mySlide"/>
     </div>
-
+ 
+    <div className='boxesDiv'>
+      <div className='miniBoxesDiv'>
+        <InfoBox mainText={"40+"} littleText={"Students Taught"}/>
+        <InfoBox mainText={"3"} littleText={"Classes Offered"}/>
+        <InfoBox mainText={"4:1"} littleText={"Student-Mentor Ratio"}/>
+      </div>
+    </div>
+    
     <div className='bigDiv reverse'>
 
       <div className='aboutTextDiv'>
@@ -35,7 +44,7 @@ function MainPage() {
       <img src={require("../Images/download.jpeg")} alt='hi' className="aboutImg"/>
 
     </div>
-    
+   
     </>
   );
 }

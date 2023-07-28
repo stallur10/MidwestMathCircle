@@ -5,7 +5,9 @@ import Footer from './Components/Footer';
 import RegisterPage from './pages/RegisterPage';
 import {Routes, Route } from 'react-router-dom';
 
-
+//161853 blue
+//ec255a red
+//faedf0 white
 function App() {
   return (
     <div>
