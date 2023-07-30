@@ -1,0 +1,25 @@
+#text {
+    font-size: 50px;
+    padding: 0 20px;
+}
+
+#smText {
+    font-size: 18px;
+    padding: 0 20px;
+}
+
+#superBigCont {
+    display: table;
+    background-color: #D6EFFF;
+    width: 100vw;
+    margin: 0;
+    height: calc(100vh - 161px);
+    text-align: center;
+    vertical-align: middle;
+}
+
+#xtra {
+    display: table-cell; 
+    vertical-align: middle;
+    padding-bottom: 20vh;
+}

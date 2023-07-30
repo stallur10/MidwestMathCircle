@@ -25,12 +25,12 @@ function Footer() {
                     <img class='socialLogo' src={linkedin} width="25px" height='25px' alt="logo" />
                 </a>
 
-                <a href="tel:8473872223" target="_blank">
+                <a href="/contact" target="_blank">
                     <img class="socialLogo" src={phone} width="25px" height="25px" alt="logo" />
                 </a>
 
-                <a href="mailto:rishirkanchi@gmail.com">
-                    <img class="socialLogo" src={email} width="25px" height="25px" alt="logo" />
+                <a href="/contact">
+                    <img class="socialLogo" src={email} width="25px" height="25px" alt="logo"/>
                 </a>
             </div>
 
