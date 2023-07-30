@@ -6,8 +6,6 @@
     overflow: hidden;
     perspective: 1px;
     border-width: .5px;
-    border-color: #fcba03;
-    border-style: solid;
     background-color: #4287f5;
 }
 
@@ -42,9 +40,11 @@
 .aboutTextDiv {
     justify-content: center;
     text-align: center;
-    padding: 20px;
+    padding: 52px;
     flex-basis: 1800px;
     flex-grow: 0;
+    background-color: white;
+    border-width: 0px;
 }
 
 .reverse {
@@ -65,7 +65,7 @@
 }
 
 .gold {
-    color: #fcba03;
+    color: black;
 }
 
 .contact {
@@ -79,7 +79,7 @@
 }
 
 .boxesDiv {
-    background: linear-gradient(to bottom, #4287f5 50%, #fdd885);
+    background: #D6EFFF;
 }
 
 .miniBoxesDiv {
@@ -87,6 +87,5 @@
     justify-content: center;
     flex-wrap: wrap;
     gap: 30px;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding: 70px 0;
 }
