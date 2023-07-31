@@ -17,6 +17,10 @@ function Footer() {
             </div>
 
             <div id='socials'>
+                <a target="_blank" style={{padding: '0 10px', fontSize: '20px'}}>
+                    midwestmath3@gmail.com
+                </a>
+
                 <a href="https://www.facebook.com/midwestmathcircle/" target="_blank">
                     <img class='socialLogo' src={facebook} width="25px" height='25px' alt="logo" />
                 </a>
@@ -25,13 +29,17 @@ function Footer() {
                     <img class='socialLogo' src={linkedin} width="25px" height='25px' alt="logo" />
                 </a>
 
-                <a href="/contact" target="_blank">
+                {/*<a href="/contact" target="_blank">
                     <img class="socialLogo" src={phone} width="25px" height="25px" alt="logo" />
+                </a>*/}
+
+                <a target="_blank" style={{padding: '0 15px', fontSize: '20px'}}>
+                    (847) 387-2223
                 </a>
 
-                <a href="/contact">
+                {/*<a href="/contact">
                     <img class="socialLogo" src={email} width="25px" height="25px" alt="logo"/>
-                </a>
+                </a>*/}
             </div>
 
             <div id='copyright'>

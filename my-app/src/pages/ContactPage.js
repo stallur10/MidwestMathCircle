@@ -1,11 +1,11 @@
-import './ContactPage.css'
+/*import './ContactPage.css'
 import {React, useState} from 'react';
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
 import { getDatabase, ref, set } from "firebase/database";
 
-/*THIS IS FIREBASE STUFF*/
+/*THIS IS FIREBASE STUFF
 const firebaseConfig = {
   apiKey: "AIzaSyCp_y3njjZNEZIluXAPun7Fjftj7t2qzpk",
   authDomain: "mwmc-a600c.firebaseapp.com",
@@ -30,7 +30,7 @@ function writeUserData(nameId, email, subject, message){
     });
     window.location.href = '/success'
 }
-/*THIS IS FIREBASE STUFF END*/
+/*THIS IS FIREBASE STUFF END
 
 function ContactPage() {
     const [name, setName] = useState("");
@@ -75,4 +75,4 @@ function ContactPage() {
     );
 }
     
-export default ContactPage;
+export default ContactPage;*/

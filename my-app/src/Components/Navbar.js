@@ -21,9 +21,9 @@ function Navbar(){
             </div>
 
             <nav ref={navRef}>
-                <Link to="/ourteam" onClick={showNavbar}>Our Team</Link>
                 <Link to="/home" onClick={showNavbar}>Home</Link>
-                <Link to="/contact" onClick={showNavbar}>Contact Us</Link>
+                <Link to="/ourteam" onClick={showNavbar}>Our Team</Link>
+                {/* <Link to="/contact" onClick={showNavbar}>Contact Us</Link>*/}
             </nav>
             <button className="nav-btn"  onClick={showNavbar}>
                 <FaBars/>
