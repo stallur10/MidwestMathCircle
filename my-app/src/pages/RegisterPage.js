@@ -30,16 +30,14 @@ export default function RegisterPage() {
                 but only enough to solve a few cookie cutter problems. We take the opposite approach, teaching our students so
                 that they can look at a problem they'd never seen before, and break it down to solve it. </p>
                 </div>
-
+ 
                 <img src={require("../Images/download.jpeg")} alt='hi' className="aboutImg"/>
 
             </div>
             <div className='boxesDiv'>
             <div className='miniBoxesDiv'>
                 <InfoBox mainText={"40+"} littleText={"Students Taught"}/>
-                <div></div>
                 <InfoBox mainText={"3"} littleText={"Classes Offered"}/>
-                <div></div>
                 <InfoBox mainText={"4:1"} littleText={"Student-Mentor Ratio"}/>
             </div>
             </div>

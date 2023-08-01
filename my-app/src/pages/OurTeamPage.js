@@ -104,7 +104,7 @@ function App() {
               <div style={{}}>
                 <h1>Anvith Kotha</h1>
                 <p style={{color: 'white'}}>Rising Senior at Conant Highschool</p>
-                <SocialIcon url='?' bgColor="#000"></SocialIcon>
+                <SocialIcon url='https://www.linkedin.com/in/anvith-kotha-b2231722a/' bgColor="#000"></SocialIcon>
               </div>
           </div>
 
