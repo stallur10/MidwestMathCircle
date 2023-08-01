@@ -1,14 +1,25 @@
 {
   "files": {
-    "main.css": "/MidwestMathCircle/static/css/main.68d419d4.css",
-    "main.js": "/MidwestMathCircle/static/js/main.7ae02c34.js",
-    "static/media/atoz_assessment.jpg": "/MidwestMathCircle/static/media/atoz_assessment.227574d252159b380012.jpg",
-    "index.html": "/MidwestMathCircle/index.html",
-    "main.68d419d4.css.map": "/MidwestMathCircle/static/css/main.68d419d4.css.map",
-    "main.7ae02c34.js.map": "/MidwestMathCircle/static/js/main.7ae02c34.js.map"
+    "main.css": "/static/css/main.3f1d96f2.css",
+    "main.js": "/static/js/main.5545e940.js",
+    "static/media/rishi_headshot.jpg": "/static/media/rishi_headshot.69f3c3bc505d9f73a8a3.jpg",
+    "static/media/MeeraPradeepan.jpeg": "/static/media/MeeraPradeepan.c8da94aa6c31e91cbe94.jpeg",
+    "static/media/AnvithPic.png": "/static/media/AnvithPic.5888b5d7bebefc891470.png",
+    "static/media/VarunM.jpg": "/static/media/VarunM.41910bc6566c26b93985.jpg",
+    "static/media/HetaPatel.JPG": "/static/media/HetaPatel.e2048a810d1f4c89b85e.JPG",
+    "static/media/ShreyasPic.jpg": "/static/media/ShreyasPic.e9cf237c050adfa76307.jpg",
+    "static/media/logo.png": "/static/media/logo.5238c6dad1ee4a4fe115.png",
+    "static/media/atoz_assessment.jpg": "/static/media/atoz_assessment.227574d252159b380012.jpg",
+    "static/media/linkedin.png": "/static/media/linkedin.57ebf5b9b38b42f6c4ca.png",
+    "static/media/phone.png": "/static/media/phone.f58f4b31ed8d0b25f378.png",
+    "static/media/facebook.png": "/static/media/facebook.58fae2efc5bf705199fa.png",
+    "static/media/email.png": "/static/media/email.a5109efec60c2d87997c.png",
+    "index.html": "/index.html",
+    "main.3f1d96f2.css.map": "/static/css/main.3f1d96f2.css.map",
+    "main.5545e940.js.map": "/static/js/main.5545e940.js.map"
   },
   "entrypoints": [
-    "static/css/main.68d419d4.css",
-    "static/js/main.7ae02c34.js"
+    "static/css/main.3f1d96f2.css",
+    "static/js/main.5545e940.js"
   ]
 }

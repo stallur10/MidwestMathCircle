@@ -22,8 +22,7 @@ function App() {
         Aos.init({});
     }, []);
 
-    var Anvith=logo
-    var Shreyas=logo
+
     var Rishi= rishi_headshot
     return (
     <div className="App">
