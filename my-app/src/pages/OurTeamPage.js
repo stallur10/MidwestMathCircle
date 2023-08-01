@@ -86,20 +86,6 @@ function App() {
                   imageURL= {HetaPic}
                   body='Heta is a senior at Schaumburg High School. She loves math & participated in math olympiad through elementary school. When she was a freshman, she joined math team wand found her passion for math again. She hopes to not only teach math, but to help kids find a passion for math.'
                   /> 
-
-             
-{/* 
-                <Card 
-                  title='TBA'
-                  imageURL= {logo}
-                  body=''
-                  />  
-
-                <Card 
-                  title='MWMC'
-                  imageURL= {logo}
-                  body=''
-                  />    */}
          </div>
 
        </div>

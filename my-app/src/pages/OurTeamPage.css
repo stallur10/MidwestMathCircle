@@ -101,50 +101,32 @@ padding: 20px;
 }
 
 @media (max-width: 768px) {
-  .mentors {
-    background-color: #FEFEFF;
-    height: 1200px;
-    margin-top: 10%;
-    flex-wrap: wrap;
-  }
   .mentors-container{
     background-color: #FEFEFF;
     flex-direction: column;
     justify-content: center;
     display: flex;
-    overflow-x:auto;
-
-
   }
+
   .mentor-cards1 {
     background-color: #FEFEFF;
+    justify-content: center;
+    align-items: center;
     display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    margin-top: 40px;
-    width:fit-content
-
+    flex-direction: column;
+    gap: 40px;
   }
+
   .mentor-cards2 {
     background-color: #FEFEFF;
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: row;
-    margin-top: 40px;
-    width:fit-content
-
-  }
-
-  .web-devs-people{
-    display: flex;
-    flex-direction: row;
     justify-content: center;
-    margin-top: 100px;
-    height: 30%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
   }
 
   .web-devs {
-    background-color: #FEFEFF;
+    padding-top: 1100px;
   }
-
 }
