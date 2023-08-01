@@ -1,11 +1,7 @@
-#FEFEFF
-#D6EFFF
-
 
 .App {
   text-align: center;
   overflow-y: hidden;
-
 }
 
 
@@ -75,7 +71,7 @@ body {
 
 .mentors {
   background-color: #FEFEFF;
-  height: 900px;
+  height: 1200px;
   margin-top: 10%;
 }
 
@@ -109,6 +105,7 @@ padding: 20px;
     background-color: #FEFEFF;
     height: 1200px;
     margin-top: 10%;
+    flex-wrap: wrap;
   }
   .mentors-container{
     background-color: #FEFEFF;
