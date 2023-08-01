@@ -72,7 +72,7 @@ function App() {
                 <Card 
                   title='Varun Mittal'
                   imageURL= {VarunPic}
-                  body='I go to Ducky University because i really like ducks and basketball'
+                  body='Varun is a Conant High School graduate and a rising freshman at Duke University, where he plans to study Statistics and Public Policy. He has competed in a variety of contests and has led the Midwest Math Circle Team in the Harvard-MIT Mathematics Tournament. In his free time, he enjoys watching sports and reading.'
                   />
 
                 <Card 

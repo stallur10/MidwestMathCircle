@@ -61,6 +61,7 @@ header .nav-btn {
     header .nav-btn{
         visibility: visible;
         opacity: 1;
+        position: 'sticky'; 
         top: 0; 
         z-index: 9999;
     }
@@ -78,7 +79,7 @@ header .nav-btn {
         gap: 1.5rem;
         background-color: var(--mainColor);
         transition: 1s;
-        transform: translateY(-100vh);
+        transform: translateY(-150vh);
         z-index: 9999;
     }
 

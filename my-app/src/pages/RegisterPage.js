@@ -81,49 +81,49 @@ export default function RegisterPage() {
                     </tr>
                     <tr>
                         <td>First Session!</td>
-                        <td>August 6</td>
+                        <td>August 13</td>
                         <td>2:30 - 4:30</td>
                         <td>Schaumburg Library</td>
                     </tr>
                     <tr>
                         <td>Session 2</td>
-                        <td>August 13</td>
+                        <td>August 20</td>
                         <td>2:30 - 4:30</td>
                         <td>Palatine Library</td>
                     </tr>
                     <tr>
                         <td>Session 3</td>
-                        <td>August 20</td>
+                        <td>August 27</td>
                         <td>2:30 - 4:30</td>
                         <td>Schaumburg Library</td>
                     </tr>
                     <tr>
                         <td>Session 4</td>
-                        <td>August 27</td>
+                        <td>September 4</td>
                         <td>2:30 - 4:30</td>
                         <td>Palatine Library</td>
                     </tr>
                     <tr>
                         <td>Session 5</td>
-                        <td>September 4</td>
+                        <td>September 11</td>
                         <td>2:30 - 4:30</td>
                         <td>Schaumburg Library</td>
                     </tr>
                     <tr>
                         <td>Session 6</td>
-                        <td>September 11</td>
+                        <td>September 18</td>
                         <td>2:30 - 4:30</td>
                         <td>Palatine Library</td>
                     </tr>
                     <tr>
                         <td>Session 7</td>
-                        <td>September 18</td>
+                        <td>September 25</td>
                         <td>2:30 - 4:30</td>
                         <td>Schaumburg Library</td>
                     </tr>
                     <tr>
                         <td>Session 8</td>
-                        <td>September 25</td>
+                        <td>October 2</td>
                         <td>2:30 - 4:30</td>
                         <td>Palatine Library</td>
                     </tr>

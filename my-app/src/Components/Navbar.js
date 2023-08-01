@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import {FaBars} from "react-icons/fa"
 import { useRef } from "react";
 import './Navbar.css'
@@ -8,9 +8,17 @@ import logo from '../Images/logo.png'
 
 function Navbar(){
     const navRef= useRef();
+    const [state, setState] = useState(0)
 
     const showNavbar = () => {
         navRef.current.classList.toggle("responsive_nav")
+        if (state == 0) {
+            setState(1)
+            document.body.style.overflow = "hidden"
+        } else {
+            setState(0)
+            document.body.style.overflow = ""
+        }
     }
 
 
