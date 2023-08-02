@@ -28,6 +28,11 @@ video {
     object-fit: cover;
 }
 
+video::-webkit-media-controls {
+    display: none;
+}
+  
+
 body {
     overflow-x: hidden; /* Hide horizontal scrollbar */
   }

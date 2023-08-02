@@ -41,7 +41,7 @@ function Navbar(){
 
             <nav ref={navRef}>
                 {/* <Link to="/about" onClick={showNavbar}>About Us</Link> */}
-                <Link to="/home" onClick={() => {
+                <Link to="/" onClick={() => {
                     showNavbar()
                     setState(0)
                     document.body.style.overflow = ""
