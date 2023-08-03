@@ -51,6 +51,11 @@ function Navbar(){
                     setState(0)
                     document.body.style.overflow = ""
                 }}>Our Team</Link>
+                <Link to="/contactus" onClick={() => {
+                    showNavbar()
+                    setState(0)
+                    document.body.style.overflow = ""
+                }}>Contact Us</Link>
             </nav>
             <button className="nav-btn"  onClick={() => {
                 showNavbar()

@@ -1,0 +1,64 @@
+#App {
+    text-align: center;
+}
+
+#contactTitleCont {
+    background-color: #D6EFFF;
+    min-height: calc(35vh - 161.67px);
+    border: solid 2px black;
+
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-flow: column nowrap;
+}
+
+#contactTitle {
+    padding-top: 60px;
+    font-size: 60px;
+}
+
+.manualContact {
+    font-size: 18px;
+}
+
+#formCont {
+    background-color: white;
+    min-height: calc(77vh - 161.67px);
+    padding-top: 15px;
+    /*display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;*/
+}
+
+.inputInfo {
+    margin-top: 20px;
+}
+
+.inputTxt {
+    border: solid 1px black transparent;
+    background-color: #D6EFFF;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 10px 15px;
+    width: 80vw;
+    max-width: 500px;
+}
+
+#message {
+    max-width: 1000px;
+    width: 80vw;
+    height: 300px;
+}
+
+#submit {
+    border: solid 1px black transparent;
+    background-color: #D6EFFF;
+    border-radius: 10px;
+    font-size: 24px;
+    padding: 10px 20px;
+    margin: 50px;
+}

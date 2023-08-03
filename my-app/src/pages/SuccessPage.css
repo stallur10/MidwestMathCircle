@@ -1,0 +1,23 @@
+#Success {
+    min-height: calc(100vh - 160px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: #D6EFFF;
+}
+
+#cont {
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+#biggy {
+    font-size: 70px;
+    padding: 10px 50px;
+}
+
+#smally {
+    font-size: 24px;
+    padding: 10px 50px;
+}
