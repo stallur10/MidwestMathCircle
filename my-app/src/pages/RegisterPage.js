@@ -30,7 +30,7 @@ export default function RegisterPage() {
                 {/*https://www.dropbox.com/scl/fi/183otdxqfiftu9uj8o1s5/Untitled.mp4?rlkey=j79cnaiodwd7xihn3es8nzumr&raw=1*/}
                 <video ref={videoRef} src={mwmc_pics} autoPlay loop muted/>
                 <div className="content">
-                    <h1 id="title">Midwest Math Circle</h1>
+                    <h1 id="title">MW Math Circle</h1>
                     <button id='signUp' onClick={() => window.open('https://forms.gle/uRPGkWxfKSAEi3Dr7', '_blank')}>Sign Up</button>
                     <a href="#nextTitle">Session Dates ↓</a>
                 </div>
