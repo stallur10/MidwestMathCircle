@@ -1,12 +1,25 @@
-import React, {useEffect } from 'react'
+import React, { useRef, useEffect } from 'react';
 import './RegisterPage.css'; 
 import Aos from 'aos';
 import "aos/dist/aos.css";
 import InfoBox from '../Components/InfoBox';
+import mwmc_pics from "../Images/mwmc_pics.mp4"
+
+function getRandomInt(min, max) {
+    min = Math.ceil(min);
+    max = Math.floor(max);
+    return Math.floor(Math.random() * (max - min) + min); // The maximum is exclusive and the minimum is inclusive
+}
 
 export default function RegisterPage() {
+
+    const videoRef = useRef(null);
+
     useEffect(() => {
         Aos.init({});
+        if (videoRef.current) {
+            videoRef.current.currentTime = getRandomInt(0, 541);
+        } 
     }, []);
 
     return (
@@ -14,7 +27,8 @@ export default function RegisterPage() {
         <div className='App'>
             <div className='main'>
                 <div className="overlay"></div>
-                <video src="https://www.dropbox.com/s/ej442fe9em0eoq1/mwmc_slideshow.mp4?raw=1" autoPlay loop muted/>
+                {/*https://www.dropbox.com/scl/fi/183otdxqfiftu9uj8o1s5/Untitled.mp4?rlkey=j79cnaiodwd7xihn3es8nzumr&raw=1*/}
+                <video ref={videoRef} src={mwmc_pics} autoPlay loop muted/>
                 <div className="content">
                     <h1 id="title">Midwest Math Circle</h1>
                     <button id='signUp' onClick={() => window.open('https://forms.gle/uRPGkWxfKSAEi3Dr7', '_blank')}>Sign Up</button>
