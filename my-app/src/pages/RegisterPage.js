@@ -109,7 +109,7 @@ export default function RegisterPage() {
                         <td>Session 3</td>
                         <td>August 27</td>
                         <td>2:30 - 4:30</td>
-                        <td>Schaumburg Library</td>
+                        <td>TBD</td>
                     </tr>
                     <tr>
                         <td>Session 4</td>
@@ -121,7 +121,7 @@ export default function RegisterPage() {
                         <td>Session 5</td>
                         <td>September 11</td>
                         <td>2:30 - 4:30</td>
-                        <td>Schaumburg Library</td>
+                        <td>TBD</td>
                     </tr>
                     <tr>
                         <td>Session 6</td>
@@ -133,7 +133,7 @@ export default function RegisterPage() {
                         <td>Session 7</td>
                         <td>September 25</td>
                         <td>2:30 - 4:30</td>
-                        <td>Schaumburg Library</td>
+                        <td>TBD</td>
                     </tr>
                     <tr>
                         <td>Session 8</td>
