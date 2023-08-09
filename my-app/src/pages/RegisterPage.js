@@ -113,32 +113,56 @@ export default function RegisterPage() {
                     </tr>
                     <tr>
                         <td>Session 4</td>
-                        <td>September 4</td>
+                        <td>September 3</td>
                         <td>2:30 - 4:30</td>
-                        <td>Palatine Library</td>
+                        <td>TBD</td>
                     </tr>
                     <tr>
                         <td>Session 5</td>
-                        <td>September 11</td>
+                        <td>September 10</td>
                         <td>2:30 - 4:30</td>
                         <td>TBD</td>
                     </tr>
                     <tr>
                         <td>Session 6</td>
-                        <td>September 18</td>
-                        <td>2:30 - 4:30</td>
+                        <td>September 17</td>
+                        <td>2:15 - 4:15</td>
                         <td>Palatine Library</td>
                     </tr>
                     <tr>
                         <td>Session 7</td>
-                        <td>September 25</td>
+                        <td>September 24</td>
                         <td>2:30 - 4:30</td>
                         <td>TBD</td>
                     </tr>
                     <tr>
                         <td>Session 8</td>
-                        <td>October 2</td>
+                        <td>October 1</td>
+                        <td>2:15 - 4:15</td>
+                        <td>Palatine Library</td>
+                    </tr>
+                    <tr>
+                        <td>NO CLASS</td>
+                        <td>October 8</td>
+                        <td>N/A</td>
+                        <td>NONE</td>
+                    </tr>
+                    <tr>
+                        <td>Session 9</td>
+                        <td>October 15</td>
+                        <td>2:15 - 4:15</td>
+                        <td>Palatine Library</td>
+                    </tr>
+                    <tr>
+                        <td>Session 10</td>
+                        <td>October 22</td>
                         <td>2:30 - 4:30</td>
+                        <td>TBD</td>
+                    </tr>
+                    <tr>
+                        <td>Session 11</td>
+                        <td>October 29</td>
+                        <td>2:15 - 4:15</td>
                         <td>Palatine Library</td>
                     </tr>
                 </table></center>
