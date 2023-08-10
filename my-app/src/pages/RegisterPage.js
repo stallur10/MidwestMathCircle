@@ -141,30 +141,6 @@ export default function RegisterPage() {
                         <td>2:15 - 4:15</td>
                         <td>Palatine Library</td>
                     </tr>
-                    <tr>
-                        <td>NO CLASS</td>
-                        <td>October 8</td>
-                        <td>N/A</td>
-                        <td>NONE</td>
-                    </tr>
-                    <tr>
-                        <td>Session 9</td>
-                        <td>October 15</td>
-                        <td>2:15 - 4:15</td>
-                        <td>Palatine Library</td>
-                    </tr>
-                    <tr>
-                        <td>Session 10</td>
-                        <td>October 22</td>
-                        <td>2:30 - 4:30</td>
-                        <td>TBD</td>
-                    </tr>
-                    <tr>
-                        <td>Session 11</td>
-                        <td>October 29</td>
-                        <td>2:15 - 4:15</td>
-                        <td>Palatine Library</td>
-                    </tr>
                 </table></center>
             </div>
         </div>
