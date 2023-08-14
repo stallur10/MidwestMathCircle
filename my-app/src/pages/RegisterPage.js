@@ -50,9 +50,9 @@ export default function RegisterPage() {
             </div>
             <div className='boxesDiv'>
             <div className='miniBoxesDiv'>
-                <InfoBox mainText={"40+"} littleText={"Students Taught"}/>
-                <InfoBox mainText={"3"} littleText={"Classes Offered"}/>
-                <InfoBox mainText={"4:1"} littleText={"Student-Mentor Ratio"}/>
+                <InfoBox mainText={"90+"} littleText={"Students Taught"}/>
+                <InfoBox mainText={"5"} littleText={"Years of Experince"}/>
+                <InfoBox mainText={"1000+"} littleText={"Hours Volunteered"}/>
             </div>
             </div>
    
