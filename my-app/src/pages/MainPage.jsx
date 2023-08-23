@@ -37,7 +37,7 @@ function MainPage() {
         <h1 className='gold'>About Us</h1>
         <h3 className='gold'>As Albert Einstein once said, "Education is not the learning of facts but the training of minds to think". At MWMC, we embody this philosophy. 
         We grew frustrated with the approach schools take to math, teaching a variety of concepts,
-        but only enough to solve a few cookie cutter problems. We take the opposite approach, We offer specialized math tutoring in the Palatine and Schaumburg area to our students so
+        but only enough to solve a few cookie cutter problems. We take the opposite approach, we offer specialized math tutoring in the Palatine and Schaumburg area to our students so
         that they can look at a problem they'd never seen before, and break it down to solve it. </h3>
       </div>
 
