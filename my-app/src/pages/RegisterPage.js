@@ -39,19 +39,18 @@ export default function RegisterPage() {
 
                 <div className='aboutTextDiv'>
                 <h1 className='gold'>Philosophy</h1>
-                <p style={{fontSize:'20px'}}>As Albert Einstein once said, "Education is not the learning of facts but the training of minds to think". At MWMC, we embody this philosophy. 
+                <p className="philDesc" style={{fontSize:'20px'}}>As Albert Einstein once said, "Education is not the learning of facts but the training of minds to think". At MWMC, we embody this philosophy. 
         We grew frustrated with the approach schools take to math, teaching a variety of concepts,
         but only enough to solve a few cookie cutter problems. We take the opposite approach, we offer specialized math tutoring in the Palatine and Schaumburg area to our students so
         that they can look at a problem they'd never seen before, and break it down to solve it. </p>
                 </div>
  
-                <img src={require("../Images/download.jpeg")} alt='hi' className="aboutImg"/>
 
             </div>
             <div className='boxesDiv'>
             <div className='miniBoxesDiv'>
                 <InfoBox mainText={"90+"} littleText={"Students Taught"}/>
-                <InfoBox mainText={"5"} littleText={"Years of Experince"}/>
+                <InfoBox mainText={"5"} littleText={"Years of Experience"}/>
                 <InfoBox mainText={"1000+"} littleText={"Hours Volunteered"}/>
             </div>
             </div>

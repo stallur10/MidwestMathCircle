@@ -16,7 +16,11 @@
 html {
     scroll-behavior: smooth;
 }
-
+.philDesc{
+margin-left: 10%;
+margin-right: 10%;
+margin-top: 2%;
+}
 .main {
     width: 100vw;
     height: calc(100vh - 80px);
