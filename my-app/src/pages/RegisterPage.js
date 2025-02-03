@@ -86,60 +86,69 @@ export default function RegisterPage() {
             <div id="nextsession" className='nextSessions'>
                 <h2 id="nextTitle" data-aos='fade-up' data-aos-duration='1600'>Next Sessions</h2>
                 <center><table id='sessionTable' data-aos='flip-down' data-aos-duration='1600'>
-                    <tr>
-                        <th>Session Name</th>
-                        <th>Day</th>
-                        <th>Time</th>
-                        <th>Location</th>
-                    </tr>
-                    <tr>
-                        <td>First Session!</td>
-                        <td>August 13</td>
-                        <td>2:30 - 4:30</td>
-                        <td>Palatine Library</td>
-                    </tr>
-                    <tr>
-                        <td>Session 2</td>
-                        <td>August 20</td>
-                        <td>2:30 - 4:30</td>
-                        <td>Palatine Library</td>
-                    </tr>
-                    <tr>
-                        <td>Session 3</td>
-                        <td>August 27</td>
-                        <td>2:30 - 4:30</td>
-                        <td>TBD</td>
-                    </tr>
-                    <tr>
-                        <td>Session 4</td>
-                        <td>September 3</td>
-                        <td>2:30 - 4:30</td>
-                        <td>TBD</td>
-                    </tr>
-                    <tr>
-                        <td>Session 5</td>
-                        <td>September 10</td>
-                        <td>2:30 - 4:30</td>
-                        <td>TBD</td>
-                    </tr>
-                    <tr>
-                        <td>Session 6</td>
-                        <td>September 17</td>
-                        <td>2:15 - 4:15</td>
-                        <td>Palatine Library</td>
-                    </tr>
-                    <tr>
-                        <td>Session 7</td>
-                        <td>September 24</td>
-                        <td>2:30 - 4:30</td>
-                        <td>TBD</td>
-                    </tr>
-                    <tr>
-                        <td>Session 8</td>
-                        <td>October 1</td>
-                        <td>2:15 - 4:15</td>
-                        <td>Palatine Library</td>
-                    </tr>
+                    <thead>
+                        <tr>
+                            <th>Session</th>
+                            <th>Date</th>
+                            <th>Time</th>
+                            <th>Location</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Session 1</td>
+                            <td>March 2</td>
+                            <td>2:30 - 4:30</td>
+                            <td>Palatine Library</td>
+                        </tr>
+                        <tr>
+                            <td>Session 2</td>
+                            <td>March 9</td>
+                            <td>2:30 - 4:30</td>
+                            <td>Palatine Library</td>
+                        </tr>
+                        <tr>
+                            <td>Session 3</td>
+                            <td>March 16</td>
+                            <td>2:30 - 4:30</td>
+                            <td>Palatine Library</td>
+                        </tr>
+                        <tr>
+                            <td colSpan="4" style={{ textAlign: "center", fontWeight: "bold" }}>
+                                Spring Break - No Session March 23 & March 30
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Session 4</td>
+                            <td>April 6</td>
+                            <td>2:30 - 4:30</td>
+                            <td>Palatine Library</td>
+                        </tr>
+                        <tr>
+                            <td>Session 5</td>
+                            <td>April 13</td>
+                            <td>2:30 - 4:30</td>
+                            <td>Palatine Library</td>
+                        </tr>
+                        <tr>
+                            <td>Session 6</td>
+                            <td>April 20</td>
+                            <td>2:30 - 4:30</td>
+                            <td>Palatine Library</td>
+                        </tr>
+                        <tr>
+                            <td>Session 7</td>
+                            <td>April 27</td>
+                            <td>2:30 - 4:30</td>
+                            <td>Palatine Library</td>
+                        </tr>
+                        <tr>
+                            <td>Session 8</td>
+                            <td>May 4</td>
+                            <td>2:30 - 4:30</td>
+                            <td>Palatine Library</td>
+                        </tr>
+                    </tbody>
                 </table></center>
             </div>
         </div>
