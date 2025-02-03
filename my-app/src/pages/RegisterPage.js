@@ -31,7 +31,7 @@ export default function RegisterPage() {
                 <video ref={videoRef} src={mwmc_pics} autoPlay loop muted/>
                 <div className="content">
                     <h1 id="title">Midwest Math Circle</h1>
-                    <button id='signUp' onClick={() => window.open('https://forms.gle/uRPGkWxfKSAEi3Dr7', '_blank')}>Sign Up</button>
+                    <button id='signUp' onClick={() => window.open('https://form.jotform.com/250328181380149', '_blank')}>Sign Up</button>
                     <a href="#nextTitle">Session Dates ↓</a>
                 </div>
             </div>
