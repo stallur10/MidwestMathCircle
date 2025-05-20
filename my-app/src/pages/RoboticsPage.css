@@ -1,0 +1,289 @@
+.robotics-App {
+    text-align: center;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    overflow-x: hidden
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.robotics-philDesc {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 2%;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.robotics-main {
+    width: 100vw;
+    height: calc(100vh - 80px);
+    background-color: #D6EFFF;
+}
+
+.robotics-content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    opacity: 0;
+    animation: robotics-fadeInAnimation ease-in 1s;
+    animation-delay: 0.2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.robotics-overlay {
+    position: absolute;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    height: calc(100vh - 80px);
+    background-color: rgba(0,0,0,.1);
+}
+
+.robotics-title {
+    color: #000;
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 5vh;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.robotics-signUp {
+    background-color: transparent;
+    color: #000;
+    padding: 15px 30px;
+    border: 1px solid #000;
+    font-size: 24px;
+    margin: 20px 0;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.robotics-signUp:hover {
+    color: #000;
+    background-color: #fff;
+    border-radius: 15px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+.robotics-bigDiv {
+    display: flex;
+    align-self: center;
+    overflow: hidden;
+    perspective: 1px;
+    border-width: 0px;
+    border-color: #fcba03;
+    border-style: solid;
+    background-color: #FEFEFF;
+}
+
+.robotics-header {
+    font-size: 50px;
+    font-family: 'Abel', sans-serif;
+    padding-left: 2%;
+    padding-right: 2%;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.robotics-intro {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #D6EFFF;
+    flex-shrink: 0.15;
+    padding: 20px;
+    width: 50%;
+}
+
+.robotics-link {
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    margin: 10px 0;
+    display: block;
+}
+
+.robotics-link:visited { 
+    text-decoration: none; 
+    color: #000; 
+}
+
+.robotics-contact {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.robotics-aboutTextDiv {
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    flex-basis: 1800px;
+    flex-grow: 0;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.robotics-reverse {
+    flex-direction: row-reverse;
+}
+
+.robotics-gold {
+    color: #000;
+}
+
+.robotics-boxesDiv {
+    background: linear-gradient(to bottom, #FEFEFF 50%, #D6EFFF);
+}
+
+.robotics-miniBoxesDiv {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.robotics-aboutClasses {
+    background-color: #FEFEFF;
+    color: black;
+    text-align: center;
+    width: 100vw;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.robotics-aboutClassesTitle {
+    font-size: 43px;
+    font-weight: 500;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.robotics-classBox {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding-top: 5px;
+    padding-bottom: 70px;
+    align-items: center;
+}
+
+.robotics-box {
+    background-color: #FEFEFF;
+    text-align: left;
+    color: black;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 25px;
+    max-width: 400px;
+    min-height: 367px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.robotics-box2 {
+    margin: 5vh 5vw 5vh 5vw;
+}
+
+.robotics-classNames {
+    font-size: 28px;
+    font-weight: bold;
+    margin: 5px 0 5px 0;
+    border-bottom: 3px solid;
+}
+
+.robotics-classDesc {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.robotics-nextsession {
+    background-color: #D6EFFF;
+}
+
+.robotics-nextTitle {
+    font-size: 43px;
+    font-weight: bold;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.robotics-sessionTable {
+    text-align: center;
+    justify-self: center;
+    font-size: calc(20px + 0.208333333vw);
+    padding: 10px 10px 30px 10px;
+}
+
+.robotics-nextSessions {
+    padding-bottom: 40px;
+}
+
+.robotics-table th {
+    font-size: calc(20px + 0.4vw);
+    border-bottom: 1px solid;
+}
+
+.robotics-table td {
+    font-size: calc(12px + 0.6vw);
+}
+
+.robotics-table td, 
+.robotics-table th {
+    border-left: 1px solid;
+    border-right: 1px solid;
+    padding: 0.78125vw 2.083333333vw 0.78125vw 2.083333333vw;
+}
+
+.robotics-footnote {
+    font-size: 16px;
+    color: #666;
+    font-style: italic;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.robotics-sponsor-logo {
+    height: 100px;
+    width: auto;
+    vertical-align: middle;
+}
+
+@keyframes robotics-fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

@@ -25,6 +25,31 @@ export default function RegisterPage() {
     return (
         <>
         <div className='App'>
+            <div className="temporary-banner" style={{
+                backgroundColor: '#ffd700',
+                color: '#000',
+                padding: '10px',
+                textAlign: 'center',
+                fontWeight: 'bold',
+                fontSize: '1.2em',
+                position: 'sticky',
+                top: 0,
+                zIndex: 1000,
+                cursor: 'pointer',
+                transition: 'background-color 0.3s ease'
+            }}>
+                <a href="/robotics" style={{ 
+                    color: '#000', 
+                    textDecoration: 'none',
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    gap: '10px'
+                }}>
+                    CHECK OUT OUR NEW ROBOTICS SUMMER PROGRAM
+                    <span style={{ fontSize: '0.8em' }}>→</span>
+                </a>
+            </div>
             <div className='main'>
                 <div className="overlay"></div>
                 {/*https://www.dropbox.com/scl/fi/183otdxqfiftu9uj8o1s5/Untitled.mp4?rlkey=j79cnaiodwd7xihn3es8nzumr&raw=1*/}
@@ -97,56 +122,57 @@ export default function RegisterPage() {
                     <tbody>
                         <tr>
                             <td>Session 1</td>
-                            <td>March 2</td>
-                            <td>2:30 - 4:30</td>
-                            <td>Palatine Library</td>
+                            <td>June 1</td>
+                            <td>2:00 - 3:30 PM</td>
+                            <td>Palatine/Schaumburg Library (TBD)</td>
                         </tr>
                         <tr>
                             <td>Session 2</td>
-                            <td>March 9</td>
-                            <td>2:30 - 4:30</td>
-                            <td>Palatine Library</td>
+                            <td>June 8</td>
+                            <td>2:00 - 3:30 PM</td>
+                            <td>Palatine/Schaumburg Library (TBD)</td>
                         </tr>
                         <tr>
                             <td>Session 3</td>
-                            <td>March 16</td>
-                            <td>2:30 - 4:30</td>
-                            <td>Palatine Library</td>
-                        </tr>
-                        <tr>
-                            <td colSpan="4" style={{ textAlign: "center", fontWeight: "bold" }}>
-                                Spring Break - No Session March 23 & March 30
-                            </td>
+                            <td>June 15</td>
+                            <td>2:00 - 3:30 PM</td>
+                            <td>Palatine/Schaumburg Library (TBD)</td>
                         </tr>
                         <tr>
                             <td>Session 4</td>
-                            <td>April 6</td>
-                            <td>2:30 - 4:30</td>
-                            <td>Palatine Library</td>
+                            <td>June 22</td>
+                            <td>2:00 - 3:30 PM</td>
+                            <td>Palatine/Schaumburg Library (TBD)</td>
                         </tr>
                         <tr>
                             <td>Session 5</td>
-                            <td>April 13</td>
-                            <td>2:30 - 4:30</td>
-                            <td>Palatine Library</td>
+                            <td>June 29</td>
+                            <td>2:00 - 3:30 PM</td>
+                            <td>Palatine/Schaumburg Library (TBD)</td>
                         </tr>
                         <tr>
                             <td>Session 6</td>
-                            <td>April 20</td>
-                            <td>2:30 - 4:30</td>
-                            <td>Palatine Library</td>
+                            <td>July 6</td>
+                            <td>2:00 - 3:30 PM</td>
+                            <td>Palatine/Schaumburg Library (TBD)</td>
                         </tr>
                         <tr>
                             <td>Session 7</td>
-                            <td>April 27</td>
-                            <td>2:30 - 4:30</td>
-                            <td>Palatine Library</td>
+                            <td>July 13</td>
+                            <td>2:00 - 3:30 PM</td>
+                            <td>Palatine/Schaumburg Library (TBD)</td>
                         </tr>
                         <tr>
                             <td>Session 8</td>
-                            <td>May 4</td>
-                            <td>2:30 - 4:30</td>
-                            <td>Palatine Library</td>
+                            <td>July 20</td>
+                            <td>2:00 - 3:30 PM</td>
+                            <td>Palatine/Schaumburg Library (TBD)</td>
+                        </tr>
+                        <tr>
+                            <td>Session 9</td>
+                            <td>July 27</td>
+                            <td>2:00 - 3:30 PM</td>
+                            <td>Palatine/Schaumburg Library (TBD)</td>
                         </tr>
                     </tbody>
                 </table></center>

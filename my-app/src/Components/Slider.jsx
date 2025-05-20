@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import "./Slider.css"
 
-const images = [require("../Images/download.jpeg"), require("../Images/download 2.jpeg"), require("../Images/atoz_assessment.jpg")]
+const images = [require("../Images/Robotics/VEX_GO.jpg"), require("../Images/Robotics/KIT.png"), require("../Images/Robotics/KIT.jpg")]
 
 function Slider() {
     const [index, setIndex] = useState(0)

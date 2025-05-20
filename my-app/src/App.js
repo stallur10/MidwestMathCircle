@@ -6,6 +6,7 @@ import RegisterPage from './pages/RegisterPage';
 import {Routes, Route } from 'react-router-dom';
 import ContactPage from './pages/ContactPage';
 import SuccessPage from './pages/SuccessPage';
+import RoboticsPage from './pages/RoboticsPage';
 
 //161853 blue
 //ec255a red
@@ -20,6 +21,7 @@ function App() {
             <Route path="/ourteam" element={<OurTeamPage />} />
             <Route path="/contactus" element={<ContactPage />} />
             <Route path="/success" element={<SuccessPage />} />
+            <Route path="/robotics" element={<RoboticsPage />} />
           </Routes>
       </div>
       <Footer />
