@@ -1,4 +1,3 @@
-
 .App {
   text-align: center;
   overflow-y: hidden;
@@ -7,6 +6,7 @@
 
 .web-devs {
   background-color: #FEFEFF;
+  margin-top: 10%;
 }
 
 .overlay {
@@ -75,6 +75,39 @@ body {
   margin-top: 10%;
 }
 
+.alumni {
+  background-color: #FEFEFF;
+  height: 1200px;
+  margin-top: 10%;
+}
+
+.alumni-container {
+  background-color: #FEFEFF;
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
+}
+
+.alumni-cards1 {
+  background-color: #FEFEFF;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
+}
+
+.alumni-cards2 {
+  background-color: #FEFEFF;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
+}
+
+.alumni-header {
+  padding: 20px;
+}
+
 .mentor-cards1 {
   background-color: #FEFEFF;
   justify-content: center;
@@ -128,5 +161,30 @@ padding: 20px;
 
   .web-devs {
     padding-top: 1100px;
+  }
+
+  .alumni-container {
+    background-color: #FEFEFF;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+  }
+
+  .alumni-cards1 {
+    background-color: #FEFEFF;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .alumni-cards2 {
+    background-color: #FEFEFF;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
   }
 }
