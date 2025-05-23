@@ -1,4 +1,4 @@
-import React, { useRef, useEffect } from 'react';
+import React, { useRef, useEffect, useState } from 'react';
 import './RegisterPage.css'; 
 import Aos from 'aos';
 import "aos/dist/aos.css";
@@ -14,6 +14,7 @@ function getRandomInt(min, max) {
 export default function RegisterPage() {
 
     const videoRef = useRef(null);
+    const [openFaq, setOpenFaq] = useState(null);
 
     useEffect(() => {
         Aos.init({});
@@ -21,6 +22,10 @@ export default function RegisterPage() {
             videoRef.current.currentTime = getRandomInt(0, 541);
         } 
     }, []);
+
+    const toggleFaq = (index) => {
+        setOpenFaq(openFaq === index ? null : index);
+    };
 
     return (
         <>
@@ -176,6 +181,74 @@ export default function RegisterPage() {
                         </tr>
                     </tbody>
                 </table></center>
+            </div>
+            <div id="faq" className='faqSection'>
+                <h2 id="faqTitle" data-aos='fade-up' data-aos-duration='1600'>Frequently Asked Questions</h2>
+                <div className='faqContainer' data-aos='fade-up' data-aos-duration='1600'>
+                    <div className={`faqItem ${openFaq === 0 ? 'active' : ''}`} onClick={() => toggleFaq(0)}>
+                        <h3 className='faqQuestion'>
+                            What are the benefits of enrolling my child in MWMC's program?
+                            <span className="faqIcon">{openFaq === 0 ? '−' : '+'}</span>
+                        </h3>
+                        <div className='faqAnswer'>
+                            By enrolling your child in MWMC's math summer program, you provide them with the opportunity to strengthen their math skills in a supportive, engaging environment. Our program offers students a structured curriculum to help them master core concepts and develop deeper problem solving skills, engaging challenges to provide students the ability to tackle competition and olympiad style questions, and promote future math success for future excellence in math and math competitions.
+                        </div>
+                    </div>
+                    <div className={`faqItem ${openFaq === 1 ? 'active' : ''}`} onClick={() => toggleFaq(1)}>
+                        <h3 className='faqQuestion'>
+                            How will you determine my child's mathematics abilities at MWMC?
+                            <span className="faqIcon">{openFaq === 1 ? '−' : '+'}</span>
+                        </h3>
+                        <div className='faqAnswer'>
+                            At the beginning of our session, we will provide every student with an evaluation placement examination to determine their current skills, strengths, and weaknesses. From then, we will place them in one of our mathematics levels (see the next question) and help them progress from their current mathematics abilities.
+                        </div>
+                    </div>
+                    <div className={`faqItem ${openFaq === 2 ? 'active' : ''}`} onClick={() => toggleFaq(2)}>
+                        <h3 className='faqQuestion'>
+                            What are the various levels at MWMC?
+                            <span className="faqIcon">{openFaq === 2 ? '−' : '+'}</span>
+                        </h3>
+                        <div className='faqAnswer'>
+                            MWMC has 5 major mathematics levels that we place students in. Note that all of our instructors are fluent in the material and have gone through the curriculum themselves.
+                        </div>
+                    </div>
+                    <div className={`faqItem ${openFaq === 3 ? 'active' : ''}`} onClick={() => toggleFaq(3)}>
+                        <h3 className='faqQuestion'>
+                            What are the various topics that will be covered?
+                            <span className="faqIcon">{openFaq === 3 ? '−' : '+'}</span>
+                        </h3>
+                        <div className='faqAnswer'>
+                            MWMC will go over a variety of topics depending on grade and placement level, including (but not limited to) algebra, number theory, geometry, probability, and more!
+                        </div>
+                    </div>
+                    <div className={`faqItem ${openFaq === 4 ? 'active' : ''}`} onClick={() => toggleFaq(4)}>
+                        <h3 className='faqQuestion'>
+                            How will MWMC classes be structured?
+                            <span className="faqIcon">{openFaq === 4 ? '−' : '+'}</span>
+                        </h3>
+                        <div className='faqAnswer'>
+                            Every MWMC class will last for 90 minutes at Palatine/Schaumburg Library.
+                        </div>
+                    </div>
+                    <div className={`faqItem ${openFaq === 5 ? 'active' : ''}`} onClick={() => toggleFaq(5)}>
+                        <h3 className='faqQuestion'>
+                            What are the qualifications of MWMC instructors?
+                            <span className="faqIcon">{openFaq === 5 ? '−' : '+'}</span>
+                        </h3>
+                        <div className='faqAnswer'>
+                            All MWMC instructors are high achieving high school math juniors and seniors with 4+ years of competitive math experience. The instructors have competed and qualified in various statewide and national level mathematics competitions including (but not limited to) the American Math Contest (AMC), Math Kangaroo, Mathcounts, Illinois Council of Teachers and Mathematics (ICTM), North Suburban Mathematics League (NSML), American Invitational Mathematics Examination (AIME), and the American Regions Mathematics League (ARML).
+                        </div>
+                    </div>
+                    <div className={`faqItem ${openFaq === 6 ? 'active' : ''}`} onClick={() => toggleFaq(6)}>
+                        <h3 className='faqQuestion'>
+                            How can I get in contact with MWMC to learn more?
+                            <span className="faqIcon">{openFaq === 6 ? '−' : '+'}</span>
+                        </h3>
+                        <div className='faqAnswer'>
+                            To get in touch with us, please visit our website at mwmathcircle.org or leave a voicemail at 847-387-2223
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         </>

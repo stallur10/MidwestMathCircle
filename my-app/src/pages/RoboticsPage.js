@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import './RoboticsPage.css';
 import Aos from 'aos';
 import "aos/dist/aos.css";
@@ -7,9 +7,15 @@ import Slider from '../Components/Slider';
 import roboticsForAllLogo from '../Images/Robotics/RoboticsForAll.png';
 
 export default function RoboticsPage() {
+  const [openFaq, setOpenFaq] = useState(null);
+
   useEffect(() => {
     Aos.init({});
   }, []);
+
+  const toggleFaq = (index) => {
+    setOpenFaq(openFaq === index ? null : index);
+  };
 
   return (
     <>
@@ -117,6 +123,75 @@ export default function RoboticsPage() {
               </tr>
             </tbody>
           </table></center>
+        </div>
+
+        <div id="robotics-faq" className='robotics-faqSection'>
+          <h2 id="robotics-faqTitle" data-aos='fade-up' data-aos-duration='1600'>Frequently Asked Questions</h2>
+          <div className='robotics-faqContainer' data-aos='fade-up' data-aos-duration='1600'>
+            <div className={`robotics-faqItem ${openFaq === 0 ? 'active' : ''}`} onClick={() => toggleFaq(0)}>
+              <h3 className='robotics-faqQuestion'>
+                Is there any cost for the program?
+                <span className="robotics-faqIcon">{openFaq === 0 ? '−' : '+'}</span>
+              </h3>
+              <div className='robotics-faqAnswer'>
+                There is an upfront cost of $10 for the entire program. Additionally, the nonprofit Robotics For All provides the robotics kits at no cost to students.
+              </div>
+            </div>
+            <div className={`robotics-faqItem ${openFaq === 1 ? 'active' : ''}`} onClick={() => toggleFaq(1)}>
+              <h3 className='robotics-faqQuestion'>
+                Do the students need to pay $10 for each of the robotics and math programs or just $10 in total even if a student participates in both?
+                <span className="robotics-faqIcon">{openFaq === 1 ? '−' : '+'}</span>
+              </h3>
+              <div className='robotics-faqAnswer'>
+                Students need to pay $10 for each program, which will only be a total cost of $20 if they participate in both but only $10 if they participate in one.
+              </div>
+            </div>
+            <div className={`robotics-faqItem ${openFaq === 2 ? 'active' : ''}`} onClick={() => toggleFaq(2)}>
+              <h3 className='robotics-faqQuestion'>
+                How long will sessions typically be?
+                <span className="robotics-faqIcon">{openFaq === 2 ? '−' : '+'}</span>
+              </h3>
+              <div className='robotics-faqAnswer'>
+                Each session will last an hour and a half and there will be seven sessions held over seven weeks.
+              </div>
+            </div>
+            <div className={`robotics-faqItem ${openFaq === 3 ? 'active' : ''}`} onClick={() => toggleFaq(3)}>
+              <h3 className='robotics-faqQuestion'>
+                Is there any equipment needed (computers, tablets, etc.)?
+                <span className="robotics-faqIcon">{openFaq === 3 ? '−' : '+'}</span>
+              </h3>
+              <div className='robotics-faqAnswer'>
+                Although coding autonomous robots is part of the program, computers and tablets will be provided by the coordinators and teachers for students. Students will only need pencils to complete mini worksheets about their engineering process for their robots.
+              </div>
+            </div>
+            <div className={`robotics-faqItem ${openFaq === 4 ? 'active' : ''}`} onClick={() => toggleFaq(4)}>
+              <h3 className='robotics-faqQuestion'>
+                Should students have prior experience or knowledge with robotics?
+                <span className="robotics-faqIcon">{openFaq === 4 ? '−' : '+'}</span>
+              </h3>
+              <div className='robotics-faqAnswer'>
+                No prior experience is necessary - this is a completely introductory course. The goal of the program is to introduce students to robotics and spark their interest in STEM-related careers.
+              </div>
+            </div>
+            <div className={`robotics-faqItem ${openFaq === 5 ? 'active' : ''}`} onClick={() => toggleFaq(5)}>
+              <h3 className='robotics-faqQuestion'>
+                What age ranges are appropriate for this program?
+                <span className="robotics-faqIcon">{openFaq === 5 ? '−' : '+'}</span>
+              </h3>
+              <div className='robotics-faqAnswer'>
+                We recommend the program for students in grades 2 through 6. However, students outside this age range who are interested should contact us at rishirkanchi@gmail.com or 847-387-2223 to see if an exception can be made.
+              </div>
+            </div>
+            <div className={`robotics-faqItem ${openFaq === 6 ? 'active' : ''}`} onClick={() => toggleFaq(6)}>
+              <h3 className='robotics-faqQuestion'>
+                Is there any homework?
+                <span className="robotics-faqIcon">{openFaq === 6 ? '−' : '+'}</span>
+              </h3>
+              <div className='robotics-faqAnswer'>
+                No, there is no homework for this course. However, students will complete worksheets during classes to document their progress and help refine their robots.
+              </div>
+            </div>
+          </div>
           <div className="robotics-footnote">
             Sponsored by <img src={roboticsForAllLogo} alt="Robotics For All" className="robotics-sponsor-logo" />
           </div>

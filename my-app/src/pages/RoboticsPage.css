@@ -287,3 +287,78 @@ body {
         opacity: 1;
     }
 }
+
+.robotics-faqSection {
+    background-color: #FEFEFF;
+    padding: 40px 0;
+    width: 100vw;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#robotics-faqTitle {
+    font-size: 43px;
+    font-weight: 500;
+    padding-bottom: 40px;
+    color: black;
+}
+
+.robotics-faqContainer {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.robotics-faqItem {
+    background-color: #D6EFFF;
+    border-radius: 25px;
+    padding: 20px 30px;
+    margin-bottom: 20px;
+    text-align: left;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.robotics-faqItem:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.robotics-faqQuestion {
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px solid;
+    padding-bottom: 10px;
+}
+
+.robotics-faqIcon {
+    font-size: 28px;
+    font-weight: bold;
+    color: #000;
+    transition: transform 0.3s ease;
+}
+
+.robotics-faqAnswer {
+    font-size: 18px;
+    line-height: 1.6;
+    color: black;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out, padding 0.3s ease;
+    padding: 0;
+}
+
+.robotics-faqItem.active .robotics-faqAnswer {
+    max-height: 1000px;
+    padding: 15px 0;
+}
+
+.robotics-faqItem.active .robotics-faqIcon {
+    transform: rotate(180deg);
+}
