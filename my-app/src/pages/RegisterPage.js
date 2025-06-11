@@ -60,7 +60,7 @@ export default function RegisterPage() {
                 {/*https://www.dropbox.com/scl/fi/183otdxqfiftu9uj8o1s5/Untitled.mp4?rlkey=j79cnaiodwd7xihn3es8nzumr&raw=1*/}
                 <video ref={videoRef} src={mwmc_pics} autoPlay loop muted/>
                 <div className="content">
-                    <h1 id="title">Midwest Math Circle</h1>
+                    <h1 id="title">Midwest MATH Circle</h1>
                     <button id='signUp' onClick={() => window.open('https://form.jotform.com/250328181380149', '_blank')}>Sign Up</button>
                     <a href="#nextTitle">Session Dates ↓</a>
                 </div>
@@ -127,54 +127,42 @@ export default function RegisterPage() {
                     <tbody>
                         <tr>
                             <td>Session 1</td>
-                            <td>June 1</td>
-                            <td>2:00 - 3:30 PM</td>
-                            <td>Palatine/Schaumburg Library (TBD)</td>
-                        </tr>
-                        <tr>
-                            <td>Session 2</td>
-                            <td>June 8</td>
-                            <td>2:00 - 3:30 PM</td>
-                            <td>Palatine/Schaumburg Library (TBD)</td>
-                        </tr>
-                        <tr>
-                            <td>Session 3</td>
                             <td>June 15</td>
                             <td>2:00 - 3:30 PM</td>
                             <td>Palatine/Schaumburg Library (TBD)</td>
                         </tr>
                         <tr>
-                            <td>Session 4</td>
+                            <td>Session 2</td>
                             <td>June 22</td>
                             <td>2:00 - 3:30 PM</td>
                             <td>Palatine/Schaumburg Library (TBD)</td>
                         </tr>
                         <tr>
-                            <td>Session 5</td>
+                            <td>Session 3</td>
                             <td>June 29</td>
                             <td>2:00 - 3:30 PM</td>
                             <td>Palatine/Schaumburg Library (TBD)</td>
                         </tr>
                         <tr>
-                            <td>Session 6</td>
+                            <td>Session 4</td>
                             <td>July 6</td>
                             <td>2:00 - 3:30 PM</td>
                             <td>Palatine/Schaumburg Library (TBD)</td>
                         </tr>
                         <tr>
-                            <td>Session 7</td>
+                            <td>Session 5</td>
                             <td>July 13</td>
                             <td>2:00 - 3:30 PM</td>
                             <td>Palatine/Schaumburg Library (TBD)</td>
                         </tr>
                         <tr>
-                            <td>Session 8</td>
+                            <td>Session 6</td>
                             <td>July 20</td>
                             <td>2:00 - 3:30 PM</td>
                             <td>Palatine/Schaumburg Library (TBD)</td>
                         </tr>
                         <tr>
-                            <td>Session 9</td>
+                            <td>Session 7</td>
                             <td>July 27</td>
                             <td>2:00 - 3:30 PM</td>
                             <td>Palatine/Schaumburg Library (TBD)</td>

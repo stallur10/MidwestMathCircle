@@ -81,43 +81,43 @@ export default function RoboticsPage() {
             <tbody>
               <tr>
                 <td>Session 1</td>
-                <td>June 1</td>
-                <td>3:30 PM - 5:00 PM</td>
-                <td>Palatine/Schaumburg Library (TBD)</td>
-              </tr>
-              <tr>
-                <td>Session 2</td>
-                <td>June 8</td>
-                <td>3:30 PM - 5:00 PM</td>
-                <td>Palatine/Schaumburg Library (TBD)</td>
-              </tr>
-              <tr>
-                <td>Session 3</td>
                 <td>June 15</td>
                 <td>3:30 PM - 5:00 PM</td>
                 <td>Palatine/Schaumburg Library (TBD)</td>
               </tr>
               <tr>
-                <td>Session 4</td>
+                <td>Session 2</td>
                 <td>June 22</td>
                 <td>3:30 PM - 5:00 PM</td>
                 <td>Palatine/Schaumburg Library (TBD)</td>
               </tr>
               <tr>
-                <td>Session 5</td>
+                <td>Session 3</td>
                 <td>June 29</td>
                 <td>3:30 PM - 5:00 PM</td>
                 <td>Palatine/Schaumburg Library (TBD)</td>
               </tr>
               <tr>
-                <td>Session 6</td>
+                <td>Session 4</td>
                 <td>July 6</td>
                 <td>3:30 PM - 5:00 PM</td>
                 <td>Palatine/Schaumburg Library (TBD)</td>
               </tr>
               <tr>
-                <td>Session 7</td>
+                <td>Session 5</td>
                 <td>July 13</td>
+                <td>3:30 PM - 5:00 PM</td>
+                <td>Palatine/Schaumburg Library (TBD)</td>
+              </tr>
+              <tr>
+                <td>Session 6</td>
+                <td>July 20</td>
+                <td>3:30 PM - 5:00 PM</td>
+                <td>Palatine/Schaumburg Library (TBD)</td>
+              </tr>
+              <tr>
+                <td>Session 7</td>
+                <td>July 27</td>
                 <td>3:30 PM - 5:00 PM</td>
                 <td>Palatine/Schaumburg Library (TBD)</td>
               </tr>
