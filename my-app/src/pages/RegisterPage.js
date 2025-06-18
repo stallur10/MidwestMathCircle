@@ -129,7 +129,7 @@ export default function RegisterPage() {
                             <td>Session 1</td>
                             <td>June 22</td>
                             <td>2:00 - 3:30 PM</td>
-                            <td>Palatine/Schaumburg Library (TBD)</td>
+                            <td>PALATINE LIBRARY</td>
                         </tr>
                         <tr>
                             <td>Session 2</td>
