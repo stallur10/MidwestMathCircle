@@ -64,14 +64,14 @@ function App() {
           </div>
           <div className='mentor-cards2'>
                   <Card 
-                    title='Krithik Jain'
-                    imageURL= {KrithikPic}
-                    body='Krithik Jain is a rising junior at Fremd High School. He has a strong background in competitive mathematics and enjoys sharing his knowledge with others.'
-                    />
-                  <Card 
                     title='Arnav Shenoy'
                     imageURL= {ArnavPic}
                     body='Arnav Shenoy is a rising junior at Fremd High School. He is dedicated to mathematics and enjoys teaching others about mathematical concepts and problem-solving strategies.'
+                    />
+                  <Card 
+                    title='Krithik Jain'
+                    imageURL= {KrithikPic}
+                    body='Krithik Jain is a rising junior at Fremd High School. He has a strong background in competitive mathematics and enjoys sharing his knowledge with others.'
                     />
           </div>
         </div>
