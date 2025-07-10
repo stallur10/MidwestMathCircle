@@ -10,7 +10,7 @@ function MainPage() {
       <div className='intro'>
 
         <h1 className='header'>We Are Midwest Math Circle</h1>
-        <button className='registerBtn'>{"Register Now"}</button>
+        <button className='registerBtn' onClick={() => window.open('https://form.jotform.com/250328181380149', '_blank')}>{"Register Now"}</button>
 
         <div className='contact'>
           <Unicons.UilFacebook size="60" color="#fcba03"/>

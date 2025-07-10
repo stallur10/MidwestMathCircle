@@ -81,43 +81,43 @@ export default function RoboticsPage() {
             <tbody>
               <tr>
                 <td>Session 1</td>
-                <td>June 22</td>
+                <td>June 29</td>
                 <td>3:30 PM - 5:00 PM</td>
                 <td>PALATINE LIBRARY</td>
               </tr>
               <tr>
                 <td>Session 2</td>
-                <td>June 29</td>
+                <td>July 6</td>
                 <td>3:30 PM - 5:00 PM</td>
-                <td>Palatine/Schaumburg Library (TBD)</td>
+                <td>PALATINE LIBRARY</td>
               </tr>
               <tr>
                 <td>Session 3</td>
-                <td>July 6</td>
+                <td>July 13</td>
                 <td>3:30 PM - 5:00 PM</td>
-                <td>Palatine/Schaumburg Library (TBD)</td>
+                <td>PALATINE LIBRARY</td>
               </tr>
               <tr>
                 <td>Session 4</td>
-                <td>July 13</td>
-                <td>3:30 PM - 5:00 PM</td>
-                <td>Palatine/Schaumburg Library (TBD)</td>
-              </tr>
-              <tr>
-                <td>Session 5</td>
                 <td>July 20</td>
                 <td>3:30 PM - 5:00 PM</td>
                 <td>Palatine/Schaumburg Library (TBD)</td>
               </tr>
               <tr>
-                <td>Session 6</td>
+                <td>Session 5</td>
                 <td>July 27</td>
                 <td>3:30 PM - 5:00 PM</td>
                 <td>Palatine/Schaumburg Library (TBD)</td>
               </tr>
               <tr>
-                <td>Session 7</td>
+                <td>Session 6</td>
                 <td>August 3</td>
+                <td>3:30 PM - 5:00 PM</td>
+                <td>Palatine/Schaumburg Library (TBD)</td>
+              </tr>
+              <tr>
+                <td>Session 7</td>
+                <td>August 10</td>
                 <td>3:30 PM - 5:00 PM</td>
                 <td>Palatine/Schaumburg Library (TBD)</td>
               </tr>
@@ -134,16 +134,16 @@ export default function RoboticsPage() {
                 <span className="robotics-faqIcon">{openFaq === 0 ? '−' : '+'}</span>
               </h3>
               <div className='robotics-faqAnswer'>
-                There is an upfront cost of $10 for the entire program. Additionally, the nonprofit Robotics For All provides the robotics kits at no cost to students.
+                There is an upfront cost of $5 for the entire program. Additionally, the nonprofit Robotics For All provides the robotics kits at no cost to students.
               </div>
             </div>
             <div className={`robotics-faqItem ${openFaq === 1 ? 'active' : ''}`} onClick={() => toggleFaq(1)}>
               <h3 className='robotics-faqQuestion'>
-                Do the students need to pay $10 for each of the robotics and math programs or just $10 in total even if a student participates in both?
+                Do the students need to pay $5 for each of the robotics and math programs or just $5 in total even if a student participates in both?
                 <span className="robotics-faqIcon">{openFaq === 1 ? '−' : '+'}</span>
               </h3>
               <div className='robotics-faqAnswer'>
-                Students need to pay $10 for each program, which will only be a total cost of $20 if they participate in both but only $10 if they participate in one.
+                Students only need to sign up once for both programs! The $5 registration fee covers participation in both the robotics and math programs. There's no need to register separately for each program.
               </div>
             </div>
             <div className={`robotics-faqItem ${openFaq === 2 ? 'active' : ''}`} onClick={() => toggleFaq(2)}>
